@@ -1,10 +1,12 @@
 <script setup>
-
+import ContactUs from '../components/ContactUs.vue'
 </script>
 
 <template>
-  <div class="home flex-grow-1 d-flex flex-column align-items-center justify-content-center">
-    This site is under construction
+  <div class="flex-grow-1 d-flex flex-column align-items-center justify-content-center">
+    <h1>Welcome to Puppy Love Suites</h1>
+    <p>Drop your dogs off, they deserve a vacation from you too!</p>
+    <ContactUs />
   </div>
 </template>
 

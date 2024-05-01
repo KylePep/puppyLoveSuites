@@ -12,7 +12,7 @@ import Navbar from './components/Navbar.vue'
   <main>
     <router-view />
   </main>
-  <footer class="bg-dark text-light">
+  <footer class="bg-secondary text-light">
     Puppy Love Copyright Stuff
   </footer>
 </template>
