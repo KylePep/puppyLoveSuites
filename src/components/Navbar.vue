@@ -20,7 +20,7 @@ function toggleTheme() {
 <template>
   <nav class="navbar navbar-expand-sm navbar-dark bg-secondary px-3">
     <router-link class="navbar-brand d-flex" :to="{ name: 'Home' }">
-      <div class="d-flex flex-column align-items-center text-light">
+      <div class="d-flex flex-column align-items-center text-light fw-bold">
         Puppy Love Suites
       </div>
     </router-link>
