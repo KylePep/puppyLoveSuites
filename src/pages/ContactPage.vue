@@ -9,34 +9,22 @@ const hours = ["Sunday|Closed", "Monday|8AM-6PM", "Tuesday|8AM-6PM", "Wednesday|
       Contact Us!
     </h1>
     <ul>
+
+      <li class="d-flex flex-column">
+        <h2 class="mdi mdi-clock fw-semibold"> Hours: </h2>
+        <div class="d-flex flex-row justify-content-around">
+          <div v-for="hour in hours" :key="hour"
+            class="d-flex flex-grow-1 flex-column border borer-1 border-black text-center">
+            <p class="bg-primary text-white px-2 py-1">{{ hour.split('|')[0] }}</p>
+            <div class="px-2 py-1">{{ hour.split('|')[1] }}</div>
+          </div>
+        </div>
+      </li>
+
+
       <li><span class="mdi mdi-home-variant fw-semibold"> Address:</span> 10330 Lake Shore Dr, Nampa, ID 83686
       </li>
       <li>
-        <div class="accordion" id="accordionExample">
-          <div class="accordion-item border border-0">
-            <h2 class="accordion-header">
-              <button class="accordion-button p-0 collapsed flex items-start pe-2" type="button"
-                data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false"
-                aria-controls="collapseOne">
-                <span class="mdi mdi-clock fw-semibold me-1"> Hours: </span>{{ ' ' + hours[new
-                  Date().getDay()].split('|')[0]
-                }}
-                {{
-                  hours[new Date().getDay()].split('|')[1] }}
-              </button>
-            </h2>
-            <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-              <div class="accordion-body">
-                <ul>
-                  <li v-for="hour in hours" :key="hour"> {{ ' ' + hour.split('|')[0]
-                    }}
-                    {{
-                  hour.split('|')[1] }}</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
       </li>
       <li><span class="mdi mdi-phone fw-semibold"> Phone:</span> (208) 353-5939</li>
       <li><span class="mdi mdi-email fw-semibold"> Email:</span> puppylovesuites@gmail.com</li>
