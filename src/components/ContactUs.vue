@@ -19,11 +19,6 @@ const hours = ["Sunday|Closed", "Monday|8AM-6PM", "Tuesday|8AM-6PM", "Wednesday|
         </div>
         <div class="modal-body">
 
-
-
-
-
-
           <ul>
             <li><span class="mdi mdi-home-variant fw-semibold"> Address:</span> 10330 Lake Shore Dr, Nampa, ID 83686
             </li>
