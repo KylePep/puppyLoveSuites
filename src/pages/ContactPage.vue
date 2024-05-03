@@ -4,10 +4,13 @@ const hours = ["Sunday|Closed", "Monday|8AM-6PM", "Tuesday|8AM-6PM", "Wednesday|
 </script>
 
 <template>
+
+
   <article class="text-center">
-    <h1 class="mb-3">
-      Contact Us!
-    </h1>
+
+    <div class="Hero d-flex flex-column justify-content-center text-light ">
+      <h1>Contact Us!</h1>
+    </div>
 
     <div class="d-flex flex-column">
       <h2 class="mdi mdi-clock fw-semibold"> Hours: </h2>
@@ -15,14 +18,15 @@ const hours = ["Sunday|Closed", "Monday|8AM-6PM", "Tuesday|8AM-6PM", "Wednesday|
         <div v-for="hour in hours" :key="hour"
           :class="[hour.split('|')[0] == 'Sunday' || hour.split('|')[0] == 'Saturday' ? 'bg-light' : 'bg-white']"
           class="d-flex flex-grow-1 flex-column border borer-1 border-black text-center">
-          <p class="bg-primary text-white px-2 py-1">{{ hour.split('|')[0] }}</p>
-          <div class="px-2 py-1">{{ hour.split('|')[1] }}</div>
+          <p class="bg-primary text-white">{{ hour.split('|')[0] }}</p>
+          <p class="">{{ hour.split('|')[1].split('-')[0] }}</p>
+          <p class="">{{ hour.split('|')[1].split('-')[1] }}</p>
         </div>
       </div>
     </div>
 
     <div class="d-flex justify-content-center">
-      <i class="border-bottom border-2 border-primary w-50 my-5 align-items-center"> </i>
+      <i class="border-bottom border-2 border-primary w-75 my-5 align-items-center"> </i>
     </div>
 
     <div>
@@ -35,7 +39,7 @@ const hours = ["Sunday|Closed", "Monday|8AM-6PM", "Tuesday|8AM-6PM", "Wednesday|
     </div>
 
     <div class="d-flex justify-content-center">
-      <i class="border-bottom border-2 border-primary w-50 my-5 align-items-center"> </i>
+      <i class="border-bottom border-2 border-primary w-75 my-5 align-items-center"> </i>
     </div>
 
 
@@ -46,7 +50,7 @@ const hours = ["Sunday|Closed", "Monday|8AM-6PM", "Tuesday|8AM-6PM", "Wednesday|
     </div>
 
     <div class="d-flex justify-content-center">
-      <i class="border-bottom border-2 border-primary w-50 my-5 align-items-center"> </i>
+      <i class="border-bottom border-2 border-primary w-75 my-5 align-items-center"> </i>
     </div>
 
 
@@ -64,5 +68,13 @@ const hours = ["Sunday|Closed", "Monday|8AM-6PM", "Tuesday|8AM-6PM", "Wednesday|
 <style lang="scss" scoped>
 article>div {
   margin-bottom: 1rem;
+}
+
+.Hero {
+  background-image: url(https://images.unsplash.com/photo-1586095088311-dc72701cc9cc?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 10rem;
 }
 </style>

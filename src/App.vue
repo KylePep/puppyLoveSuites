@@ -24,11 +24,6 @@ import Navbar from './components/Navbar.vue'
   --main-height: calc(100vh - 32px - 64px);
 }
 
-main {
-  margin-left: 2rem;
-  margin-right: 2rem;
-}
-
 
 footer {
   display: grid;
