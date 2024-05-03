@@ -19,7 +19,7 @@ export default {
 
   <article class="text-center">
 
-    <div class="Hero d-flex flex-column justify-content-center text-light ">
+    <div class="Hero glassmorph d-flex flex-column justify-content-center text-light ">
       <h1>Contact Us!</h1>
     </div>
 
@@ -79,7 +79,7 @@ article>div {
   background-image: url(https://images.unsplash.com/photo-1586095088311-dc72701cc9cc?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
   background-position: 95%;
   background-size: cover;
-  background-rpeat: no-repeat;
+  background-repeat: no-repeat;
   min-height: 10rem;
 }
 
