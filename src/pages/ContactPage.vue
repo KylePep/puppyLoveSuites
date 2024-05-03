@@ -17,7 +17,7 @@ export default {
 <template>
 
   <div class="row Hero">
-    <div class="glassmorph d-flex flex-column justify-content-center text-light text-center">
+    <div class=" d-flex flex-column justify-content-center text-light text-center">
       <h1>Contact Us!</h1>
     </div>
   </div>

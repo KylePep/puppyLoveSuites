@@ -2,7 +2,7 @@
   <div v-if="isSmallScreen" class="d-flex flex-column justify-content-center align-items-center">
     <div v-for="day in longDays" :key="day"
       :class="[day.split('|')[0] == 'Sunday' || day.split('|')[0] == 'Saturday' ? 'bg-light' : 'bg-white', day.split('|')[0] == 'Sunday' ? 'border-bottom-1 rounded-top-1' : 'border-top-0', day.split('|')[0] == 'Saturday' ? 'rounded-bottom-1' : '']"
-      class="d-flex flex-column border border-black w-50 text-center">
+      class="d-flex flex-column border border-black w-75 text-center">
       <p class="bg-primary text-white fw-bold px-2 py-2 mb-0">{{ day.split('|')[0] }}</p>
 
       <div class="d-flex flex-row justify-content-center py-2">

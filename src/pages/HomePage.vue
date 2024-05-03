@@ -4,7 +4,7 @@ import ContactUs from '../components/ContactUs.vue'
 
 <template>
   <div class="Hero row d-flex flex-column justify-content-center">
-    <div class="col-12 d-flex glassmorph text-light text-center flex-column justify-content-center flex-grow-1">
+    <div class="col-12 d-flex glassmorph text-white text-center flex-column justify-content-center flex-grow-1">
       <h1 class="">Welcome to Puppy Love Suites</h1>
 
       <p class="">Drop your dogs off, they deserve a vacation from you too!</p>
@@ -51,7 +51,7 @@ import ContactUs from '../components/ContactUs.vue'
 <style scoped lang="scss">
 .Hero {
   background-image: url(https://images.unsplash.com/photo-1581888227599-779811939961?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
-  background-position: 0% 85%;
+  background-position: 0% 80%;
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 10rem;
