@@ -1,5 +1,6 @@
 <script setup>
-const hours = ["Sunday|Closed", "Monday|8AM-6PM", "Tuesday|8AM-6PM", "Wednesday|8AM-6PM", "Thursday|8AM-6PM", "Friday|8AM-6PM", "Saturday|9AM-12PM",]
+const days = ["Sun|Closed", "Mon|8AM-6PM", "Tue|8AM-6PM", "Wed|8AM-6PM", "Thu|8AM-6PM", "Fri|8AM-6PM", "Sat|9AM-12PM"]
+const weekends = ["Sun|Closed", "Sat|9AM-12PM",]
 
 </script>
 
@@ -14,19 +15,22 @@ const hours = ["Sunday|Closed", "Monday|8AM-6PM", "Tuesday|8AM-6PM", "Wednesday|
 
     <div class="d-flex flex-column">
       <h2 class="mdi mdi-clock fw-semibold"> Hours: </h2>
-      <div class="d-flex flex-row justify-content-around">
-        <div v-for="hour in hours" :key="hour"
-          :class="[hour.split('|')[0] == 'Sunday' || hour.split('|')[0] == 'Saturday' ? 'bg-light' : 'bg-white']"
-          class="d-flex flex-grow-1 flex-column border borer-1 border-black text-center">
-          <p class="bg-primary text-white">{{ hour.split('|')[0] }}</p>
-          <p class="">{{ hour.split('|')[1].split('-')[0] }}</p>
-          <p class="">{{ hour.split('|')[1].split('-')[1] }}</p>
+      <div class="d-flex flex-row justify-content-center">
+        <div v-for="day in days" :key="day"
+          :class="[day.split('|')[0] == 'Sun' || day.split('|')[0] == 'Sat' ? 'bg-gray' : 'bg-white', day.split('|')[0] == 'Sun' ? 'border-start-1 rounded-start' : 'border-start-0', day.split('|')[0] == 'Sat' ? 'rounded-end' : '']"
+          class="d-flex flex-column border border-black text-center">
+          <p class="bg-primary text-white px-2 py-1">{{ day.split('|')[0] }}</p>
+          <div class="d-flex flex-column flex-sm-row">
+            <p class="px-2 mb-0">{{ day.split('|')[1].split('-')[0] }}</p>
+            <i v-if="day != 'Sun|Closed'">-</i>
+            <p class="px-2">{{ day.split('|')[1].split('-')[1] }}</p>
+          </div>
         </div>
       </div>
     </div>
 
     <div class="d-flex justify-content-center">
-      <i class="border-bottom border-2 border-primary w-75 my-5 align-items-center"> </i>
+      <i class="separationMargin border-bottom border-2 border-primary w-75 my-5 align-items-center"> </i>
     </div>
 
     <div>
@@ -77,4 +81,6 @@ article>div {
   background-repeat: no-repeat;
   min-height: 10rem;
 }
+
+.separationMargin {}
 </style>
