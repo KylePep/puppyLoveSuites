@@ -16,25 +16,26 @@ export default {
 
 <template>
 
-
-  <article class="text-center">
-
-    <div class="Hero glassmorph d-flex flex-column justify-content-center text-light ">
+  <div class="row Hero">
+    <div class="glassmorph d-flex flex-column justify-content-center text-light text-center">
       <h1>Contact Us!</h1>
     </div>
+  </div>
 
-    <div class="d-flex flex-column">
+  <article class="row text-center">
+
+    <div class="col-12 d-flex flex-column">
       <h2 class="mdi mdi-clock fw-semibold"> Hours: </h2>
 
       <Hours />
 
     </div>
 
-    <div class="d-flex justify-content-center">
+    <div class="col-12 d-flex justify-content-center">
       <i class="separationMargin border-bottom border-2 border-primary w-75 align-items-center"> </i>
     </div>
 
-    <div>
+    <div class="col-12">
       <h2 class="mdi mdi-home-variant fw-semibold"> Address:
       </h2>
       <iframe
@@ -43,23 +44,23 @@ export default {
       <p>10330 Lake Shore Dr, Nampa, ID 83686</p>
     </div>
 
-    <div class="d-flex justify-content-center">
+    <div class="col-12 d-flex justify-content-center">
       <i class="separationMargin border-bottom border-2 border-primary w-75 align-items-center"> </i>
     </div>
 
 
-    <div>
+    <div class="col-12">
       <h2 class="mdi mdi-phone fw-semibold"> Phone:
       </h2>
       <p>(208) 353-5939</p>
     </div>
 
-    <div class="d-flex justify-content-center">
+    <div class="col-12 d-flex justify-content-center">
       <i class="separationMargin border-bottom border-2 border-primary w-75 align-items-center"> </i>
     </div>
 
 
-    <div>
+    <div class="col-12">
       <h2 class="mdi mdi-email fw-semibold"> Email:
       </h2>
       <p>puppylovesuites@gmail.com</p>

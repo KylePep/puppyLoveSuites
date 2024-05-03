@@ -18,9 +18,8 @@
 
   </div>
 
-  <div v-else class="d-flex flex-column justify-content-center align-items-center">
-    <div class="d-flex flex-row w-75">
-
+  <div v-else class="d-flex flex-column flex-grow-1 align-items-center">
+    <div class="d-flex flex-row flex-grow-1 w-75">
       <div v-for="day in longDays" :key="day"
         :class="[day.split('|')[0] == 'Sunday' || day.split('|')[0] == 'Saturday' ? 'bg-light' : 'bg-white', day.split('|')[0] == 'Sunday' ? 'border-start-1 rounded-start' : 'border-start-0', day.split('|')[0] == 'Saturday' ? 'rounded-end' : '']"
         class="d-flex flex-column flex-grow-1 border border-black text-center">
