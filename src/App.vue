@@ -35,7 +35,7 @@ footer {
   background: rgba(0, 0, 0, 0.35);
   // border-radius: 16px;
   // box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(2px);
+  backdrop-filter: blur(1.25px);
   -webkit-backdrop-filter: blur(2px);
 }
 </style>
