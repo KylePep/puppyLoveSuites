@@ -13,10 +13,8 @@ import ContactUs from '../components/ContactUs.vue'
 
   <div class="row">
     <div class="col-12 px-0">
-      <h2>
-        Trying to find top-quality pet boarding in the Treasure Valley Area? Puppy Love Suites offers some of the
-        finest
-        pet care available in Nampa.
+      <h2 class="text-center">
+        Top-quality pet boarding in Nampa!
       </h2>
     </div>
   </div>
@@ -41,6 +39,24 @@ import ContactUs from '../components/ContactUs.vue'
     </div>
 
     <div class="col-12">
+      Safety is our top priority, which is why our facility is equipped with state-of-the-art security measures and
+      staffed by trained professionals who are passionate about caring for dogs. You can rest assured knowing that your
+      furry friend is in good hands during their stay with us.
+    </div>
+
+    <div class="col-12">
+      Beyond exceptional care, we also strive to create a welcoming and inclusive environment for both dogs and their
+      humans. We believe in building relationships with our clients based on trust, transparency, and genuine compassion
+      for animals.
+    </div>
+
+    <div class="col-12">
+      So whether you're heading out of town for a weekend getaway or a longer vacation, trust Puppy Love Suites to
+      provide the love, attention, and care your dog deserves. Contact us today to schedule a tour of our facilities or
+      reserve a spot for your furry friend's next stay. Let us be your dog's home away from home!
+    </div>
+
+    <div class="col-12">
 
       <ContactUs />
     </div>
@@ -50,7 +66,7 @@ import ContactUs from '../components/ContactUs.vue'
 <style scoped lang="scss">
 .Hero {
   background-image: url(https://images.unsplash.com/photo-1581888227599-779811939961?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
-  background-position: 0% 80%;
+  background-position: 0% 60%;
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 10rem;

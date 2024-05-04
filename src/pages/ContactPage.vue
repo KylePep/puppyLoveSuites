@@ -24,6 +24,12 @@ export default {
       <h2>The contact information needed to reach Puppy Love Suites</h2>
     </div>
 
+    <div class="col-12">
+      We'd love to hear from you! Whether you have questions about our services, want to schedule a tour of our
+      facilities, or just want to say hello, we're here to help. Get in touch with us using the contact information
+      below:
+    </div>
+
     <div class="col-12 d-flex flex-column">
       <h3 class="mdi mdi-clock fw-semibold"> Hours: </h3>
 
@@ -38,7 +44,7 @@ export default {
     <div class="col-12">
       <h3 class="mdi mdi-home-variant fw-semibold"> Address:
       </h3>
-      <iframe
+      <iframe class="border border-2 border-secondary rounded"
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2893.605939266819!2d-116.59967929999998!3d43.51055549999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54ae49b3d5ccf939%3A0x7870a107ef3ae032!2sPuppy%20Love%20Suites!5e0!3m2!1sen!2sus!4v1714639389907!5m2!1sen!2sus"
         width="75%" height="225" style="border:0;" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
       <p>10330 Lake Shore Dr, Nampa, ID 83686</p>
