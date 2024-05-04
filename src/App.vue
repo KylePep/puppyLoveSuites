@@ -6,12 +6,15 @@ import Navbar from './components/Navbar.vue'
 </script>
 
 <template>
+
   <header>
     <Navbar />
   </header>
+
   <main class="container">
     <router-view />
   </main>
+
   <footer class="container-fluid d-flex bg-secondary text-light">
     <div class="row flex-grow-1 align-items-center">
       <p class="col-12 col-sm-6 text-center">
@@ -24,6 +27,7 @@ import Navbar from './components/Navbar.vue'
       </div>
     </div>
   </footer>
+
 </template>
 
 <style lang="scss">

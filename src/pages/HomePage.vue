@@ -10,13 +10,19 @@ import ContactUs from '../components/ContactUs.vue'
       <p class="">Drop your dogs off, they deserve a vacation from you too!</p>
     </div>
   </div>
-  <article class="row">
-    <div class="col-12">
-      <p>
+
+  <div class="row">
+    <div class="col-12 px-0">
+      <h2>
         Trying to find top-quality pet boarding in the Treasure Valley Area? Puppy Love Suites offers some of the
         finest
         pet care available in Nampa.
-      </p>
+      </h2>
+    </div>
+  </div>
+
+  <article class="row">
+    <div class="col-12">
 
       <p>
         Puppy Love Suites located in Nampa, ID offers more than just boarding services for your dogs and cats. It's a
