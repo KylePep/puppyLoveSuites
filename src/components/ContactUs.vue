@@ -26,7 +26,7 @@ const hours = ["Sunday|Closed", "Monday|8AM-6PM", "Tuesday|8AM-6PM", "Wednesday|
             <li>
               <div class="accordion" id="accordionExample">
                 <div class="accordion-item border border-0">
-                  <h2 class="accordion-header">
+                  <div class="accordion-header">
                     <button class="accordion-button p-0 collapsed flex items-start pe-2" type="button"
                       data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false"
                       aria-controls="collapseOne">
@@ -36,7 +36,7 @@ const hours = ["Sunday|Closed", "Monday|8AM-6PM", "Tuesday|8AM-6PM", "Wednesday|
                       {{
                         hours[new Date().getDay()].split('|')[1] }}
                     </button>
-                  </h2>
+                  </div>
                   <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                     <div class="accordion-body">
                       <ul>

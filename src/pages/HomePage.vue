@@ -21,33 +21,26 @@ import ContactUs from '../components/ContactUs.vue'
     </div>
   </div>
 
-  <article class="row">
+  <article class="row g-2">
+
+
+    <Notification />
+
+
     <div class="col-12">
+      At Puppy Love Suites, we understand that your furry friend is more than just a pet – they're a cherished member of
+      your family. That's why we provide top-notch dog boarding services designed to pamper your pooch and give you
+      peace of mind while you're away.
+    </div>
 
-      <p>
-        Puppy Love Suites located in Nampa, ID offers more than just boarding services for your dogs and cats. It's a
-        pet resort and a pet salon all in one. Our pet boarding facility provides a wide array of pet services
-        including
-        bathing and grooming, day care, socialization, playtime special medical needs, door to door pick up and drop
-        off
-        service, and obedience training. Your pet will be pampered during its stay with us.
-      </p>
+    <div class="col-12">
+      Our luxury suites offer a cozy retreat for your beloved companion, complete with heated floors in the chilly
+      months and air conditioning in the summer, personalized attention, and plenty of playtime in our secure,
+      supervised indoor and outdoor areas. Whether your pup prefers romping around with new friends or simply lounging
+      in the sunshine, we cater to their every need and preference.
+    </div>
 
-      <p>
-        Here at Puppy Love Suites, we are dedicated to providing exceptional pet care services, ensuring your peace of
-        mind, and the best quality care for your pet
-      </p>
-
-      <p>
-        So whether you are in need of a vacation and cannot take your beloved pet, or perhaps you're in the transition
-        of moving and need your pet to be cared for, whatever the reason, Puppy Love Suites is here for you when you
-        need us!
-      </p>
-
-      <p>
-        When you leave Puppy Love Suites, we hope you can take PRIDE in receiving the best quality pet care services
-        available! More than just a kennel, it's a pet hotel!
-      </p>
+    <div class="col-12">
 
       <ContactUs />
     </div>
@@ -61,5 +54,11 @@ import ContactUs from '../components/ContactUs.vue'
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 10rem;
+}
+
+.dismiss:hover {
+  cursor: pointer;
+  color: var(--bs-secondary);
+  // text-shadow: -1px 1px 2px black;
 }
 </style>
