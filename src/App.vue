@@ -12,8 +12,17 @@ import Navbar from './components/Navbar.vue'
   <main class="container">
     <router-view />
   </main>
-  <footer class="bg-secondary text-light">
-    Puppy Love Copyright Stuff
+  <footer class="container-fluid d-flex bg-secondary text-light">
+    <div class="row flex-grow-1 align-items-center">
+      <p class="col-12 col-sm-6 text-center">
+        Puppy Love Copyright Stuff
+      </p>
+      <div class="col-12 col-sm-6 text-center">
+        <router-link :to="{ name: 'Contact' }" class="btn text-light lighten-30 selectable text-uppercase">
+          Contact Us
+        </router-link>
+      </div>
+    </div>
   </footer>
 </template>
 
@@ -25,9 +34,7 @@ import Navbar from './components/Navbar.vue'
 }
 
 footer {
-  display: grid;
-  place-content: center;
-  height: 32px;
+  min-height: 128px;
 }
 
 h2 {
