@@ -30,6 +30,36 @@ export default {
       below:
     </div>
 
+    <div class="col-12 d-flex justify-content-center">
+      <i class="separationMargin border-bottom border-2 border-primary w-75 align-items-center"> </i>
+    </div>
+
+    <div class="col-12 fw-bold">Connect with us!</div>
+
+    <div class="col-6 fs-5 fw-semibold">
+      <i class="mdi mdi-instagram"></i> puppy_love_suites
+    </div>
+
+    <div class="col-6 fs-5 fw-semibold">
+      <i class="mdi mdi-facebook"></i> Puppy Love Suites
+    </div>
+
+    <div class="col-12 d-flex justify-content-center">
+      <i class="separationMargin border-bottom border-2 border-primary w-75 align-items-center"> </i>
+    </div>
+
+    <div class="col-12">
+      <p class="fw-bold">Schedule a Visit:</p>
+      Ready to see Puppy Love Suites for yourself? We'd love to give you a tour of our facilities and introduce you to
+      our dedicated team. Contact us today to schedule your visit and experience the Puppy Love Suites difference
+      firsthand. <br> Thank you for considering Puppy Love Suites for your furry friend's care. We can't wait to welcome
+      you into our family!
+    </div>
+
+    <div class="col-12 d-flex justify-content-center">
+      <i class="separationMargin border-bottom border-2 border-primary w-75 align-items-center"> </i>
+    </div>
+
     <div class="col-12 d-flex flex-column">
       <h3 class="mdi mdi-clock fw-semibold"> Hours: </h3>
 
