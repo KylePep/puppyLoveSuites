@@ -30,6 +30,14 @@ footer {
   height: 32px;
 }
 
+h2 {
+  background-color: var(--bs-primary);
+  color: white;
+  // text-shadow: 1px 1px 2px black;
+  padding: 1rem 1rem 1rem 1rem;
+  border-radius: 0px 0px 16px 16px;
+}
+
 .glassmorph {
   /* From https://css.glass */
   background: rgba(0, 0, 0, 0.35);

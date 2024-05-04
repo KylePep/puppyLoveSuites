@@ -20,9 +20,12 @@ export default {
   </div>
 
   <article class="row text-center">
+    <div class="col-12 px-0">
+      <h2>The contact information needed to reach Puppy Love Suites</h2>
+    </div>
 
     <div class="col-12 d-flex flex-column">
-      <h2 class="mdi mdi-clock fw-semibold"> Hours: </h2>
+      <h3 class="mdi mdi-clock fw-semibold"> Hours: </h3>
 
       <Hours />
 
@@ -33,8 +36,8 @@ export default {
     </div>
 
     <div class="col-12">
-      <h2 class="mdi mdi-home-variant fw-semibold"> Address:
-      </h2>
+      <h3 class="mdi mdi-home-variant fw-semibold"> Address:
+      </h3>
       <iframe
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2893.605939266819!2d-116.59967929999998!3d43.51055549999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54ae49b3d5ccf939%3A0x7870a107ef3ae032!2sPuppy%20Love%20Suites!5e0!3m2!1sen!2sus!4v1714639389907!5m2!1sen!2sus"
         width="75%" height="225" style="border:0;" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
@@ -47,8 +50,8 @@ export default {
 
 
     <div class="col-12">
-      <h2 class="mdi mdi-phone fw-semibold"> Phone:
-      </h2>
+      <h3 class="mdi mdi-phone fw-semibold"> Phone:
+      </h3>
       <p>(208) 353-5939</p>
     </div>
 
@@ -58,8 +61,8 @@ export default {
 
 
     <div class="col-12">
-      <h2 class="mdi mdi-email fw-semibold"> Email:
-      </h2>
+      <h3 class="mdi mdi-email fw-semibold"> Email:
+      </h3>
       <p>puppylovesuites@gmail.com</p>
     </div>
   </article>

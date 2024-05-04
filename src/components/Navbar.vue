@@ -31,13 +31,13 @@ function toggleTheme() {
     <div class="collapse navbar-collapse" id="navbarText">
       <ul class="navbar-nav me-auto">
         <li>
-          <router-link :to="{ name: 'Contact' }" class="btn text-primary lighten-30 selectable text-uppercase">
-            Contact Us
+          <router-link :to="{ name: 'Boarding' }" class="btn text-primary lighten-30 selectable text-uppercase">
+            Boarding
           </router-link>
         </li>
         <li>
-          <router-link :to="{ name: 'Boarding' }" class="btn text-primary lighten-30 selectable text-uppercase">
-            Boarding
+          <router-link :to="{ name: 'Contact' }" class="btn text-primary lighten-30 selectable text-uppercase">
+            Contact Us
           </router-link>
         </li>
         <li>

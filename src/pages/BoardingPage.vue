@@ -1,11 +1,11 @@
 <template>
   <div class="Hero row d-flex flex-column justify-content-center ">
     <h1 class="col-12 d-flex glassmorph text-white text-center flex-column justify-content-center flex-grow-1 mb-0">
-      About Us
+      Boarding
     </h1>
   </div>
   <div class="row">
-    <div class="col-12">
+    <div class="col-12 px-0">
       <h2>Remember that when you board with Puppy Love Suites your boarding with the best!</h2>
     </div>
   </div>

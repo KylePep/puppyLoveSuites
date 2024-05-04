@@ -5,8 +5,9 @@ const hours = ["Sunday|Closed", "Monday|8AM-6PM", "Tuesday|8AM-6PM", "Wednesday|
 
 <template>
   <!-- Button trigger modal -->
-  <button type="button" class="btn btn-primary text-white" data-bs-toggle="modal" data-bs-target="#contactModal">
-    Contact Us
+  <button type="button" class="btn btn-primary text-white fw-bold" data-bs-toggle="modal"
+    data-bs-target="#contactModal">
+    CONTACT US
   </button>
 
   <!-- Modal -->

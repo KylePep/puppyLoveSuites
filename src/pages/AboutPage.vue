@@ -5,19 +5,49 @@ import ContactUs from "../components/ContactUs.vue";
 </script>
 
 <template>
-  <div class="about">
-    <div class="Hero row d-flex flex-column justify-content-center ">
-      <h1 class="col-12 d-flex glassmorph text-white text-center flex-column justify-content-center flex-grow-1 mb-0">
-        Boarding
-      </h1>
-    </div>
-    <div class="row">
-      <div class="col-12">
-        <h2>his is the about us, it's all about us the onwers and operators of Puppy Love Suites.</h2>
-      </div>
-    </div>
-    <ContactUs />
+  <div class="Hero row d-flex flex-column justify-content-center ">
+    <h1 class="col-12 d-flex glassmorph text-white text-center flex-column justify-content-center flex-grow-1 mb-0">
+      About Us
+    </h1>
   </div>
+
+  <div class="row">
+    <div class="col-12 px-0">
+      <h2>his is the about us, it's all about us the onwers and operators of Puppy Love Suites.</h2>
+    </div>
+  </div>
+
+  <div class="row">
+
+    <div class="col-6">
+      <h3>This is why you should trust me</h3>
+      <ul>
+        <li>Reason 1 </li>
+        <li>Reason 2</li>
+        <li>Reason 3</li>
+      </ul>
+    </div>
+
+    <div class="col-6">
+      <h3>This is why our services are better because of me</h3>
+      <ul>
+        <li>Reason 1 </li>
+        <li>Reason 2</li>
+        <li>Reason 3</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-12">
+      <h4>This is why I do what I do.</h4>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit nobis ipsa et in omnis laborum, fugiat a
+        doloremque vero cupiditate. Eligendi, reiciendis. Consequuntur dicta minus neque veniam, vero numquam aperiam?
+      </p>
+    </div>
+  </div>
+
+  <ContactUs />
 </template>
 
 <style scoped lang="scss">
