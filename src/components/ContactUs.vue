@@ -1,5 +1,19 @@
 <script setup>
+import { Modal } from "bootstrap";
+import { useRouter } from "vue-router";
+// import bootstrap from "bootstrap";
+
 const hours = ["Sunday|Closed", "Monday|8AM-6PM", "Tuesday|8AM-6PM", "Wednesday|8AM-6PM", "Thursday|8AM-6PM", "Friday|8AM-6PM", "Saturday|9AM-12PM",]
+
+const router = useRouter();
+
+const closeModal = () => {
+  Modal.getOrCreateInstance('#contactModal').hide()
+
+  // Navigate to the Contact page using Vue Router's programmatic navigation
+  router.push({ name: 'Contact' });
+};
+
 </script>
 
 
@@ -15,7 +29,12 @@ const hours = ["Sunday|Closed", "Monday|8AM-6PM", "Tuesday|8AM-6PM", "Wednesday|
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
-          <h1 class="modal-title fw-bold fs-5" id="contactModalLabel">Contact Us</h1>
+          <h1 class="modal-title fw-bold fs-5" id="contactModalLabel">
+            <button @click="closeModal"
+              class="btn bg-primary text-light px-2 py-1 rounded selectable text-uppercase fs-3 fw-bold">
+              CONTACT US
+            </button>
+          </h1>
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
@@ -31,10 +50,10 @@ const hours = ["Sunday|Closed", "Monday|8AM-6PM", "Tuesday|8AM-6PM", "Wednesday|
                       data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false"
                       aria-controls="collapseOne">
                       <span class="mdi mdi-clock fw-semibold me-1"> Hours: </span>{{ ' ' + hours[new
-                        Date().getDay()].split('|')[0]
+              Date().getDay()].split('|')[0]
                       }}
                       {{
-                        hours[new Date().getDay()].split('|')[1] }}
+              hours[new Date().getDay()].split('|')[1] }}
                     </button>
                   </div>
                   <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
@@ -43,7 +62,7 @@ const hours = ["Sunday|Closed", "Monday|8AM-6PM", "Tuesday|8AM-6PM", "Wednesday|
                         <li v-for="hour in hours" :key="hour"> {{ ' ' + hour.split('|')[0]
                           }}
                           {{
-                        hour.split('|')[1] }}</li>
+              hour.split('|')[1] }}</li>
                       </ul>
                     </div>
                   </div>
