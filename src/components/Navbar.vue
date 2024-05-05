@@ -20,7 +20,7 @@ function toggleTheme() {
 <template>
   <nav class="navbar navbar-expand-sm navbar-dark bg-secondary px-3">
     <router-link class="navbar-brand d-flex" :to="{ name: 'Home' }">
-      <div class="d-flex flex-column align-items-center text-light fw-bold">
+      <div class="title d-flex flex-column align-items-center  fw-bold">
         Puppy Love Suites
       </div>
     </router-link>
@@ -47,6 +47,10 @@ function toggleTheme() {
         </li>
       </ul>
       <!-- LOGIN COMPONENT HERE -->
+      <div>
+        <i class="mdi mdi-instagram fs-3 text-light me-2"></i>
+        <i class="mdi mdi-facebook fs-3 text-light"></i>
+      </div>
       <!-- <div>
         <button class="btn text-light" @click="toggleTheme"
           :title="`Enable ${theme == 'light' ? 'dark' : 'light'} theme.`">
@@ -59,6 +63,14 @@ function toggleTheme() {
 </template>
 
 <style scoped>
+.title {
+  color: var(--bs-light);
+}
+
+.title:hover {
+  color: var(--bs-primary)
+}
+
 a:hover {
   text-decoration: none;
 }

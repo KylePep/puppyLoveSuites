@@ -78,7 +78,8 @@ const closeModal = () => {
             <li><span class="mdi mdi-email fw-semibold"> Email:</span> puppylovesuites@gmail.com</li>
           </ul>
           <p class="mx-5">
-            Heres a blerb about contacting Puppy Love Suites.
+            We'd love to hear from you! Whether you have questions about our services, want to schedule a tour of our
+            facilities, or just want to say hello, we're here to help.
           </p>
         </div>
         <div class="modal-footer">

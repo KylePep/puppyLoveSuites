@@ -1,6 +1,7 @@
 <script setup>
 import PhotoCarousel from '../components/PhotoCarousel.vue'
 import ContactUs from '../components/ContactUs.vue'
+import Notification from "../components/Notification.vue";
 </script>
 
 <template>
@@ -22,10 +23,28 @@ import ContactUs from '../components/ContactUs.vue'
 
   <article class="row g-2 my-3">
 
+    <!-- <Notification /> -->
+    <div class="row">
+      <div class="col-6 px-0 d-flex justify-content-end mb-3">
+        <router-link :to="{ name: 'About' }"
+          class="btn text-white fw-bold bg-primary rounded selectable text-uppercase">
+          About Us
+        </router-link>
+      </div>
+      <div class="col-6 px-0">
+        <router-link :to="{ name: 'Boarding' }" class="btn text-primary lighten-30 selectable text-uppercase">
+          Learn about Boarding
+        </router-link>
+      </div>
+
+    </div>
+
+
     <PhotoCarousel />
 
-    <!-- <Notification /> -->
-
+    <div class="col-12 d-flex justify-content-center">
+      <ContactUs />
+    </div>
 
     <div class="col-12">
       At Puppy Love Suites, we understand that your furry friend is more than just a pet – they're a cherished member of
@@ -58,9 +77,7 @@ import ContactUs from '../components/ContactUs.vue'
       reserve a spot for your furry friend's next stay. Let us be your dog's home away from home!
     </div>
 
-    <div class="col-12">
-      <ContactUs />
-    </div>
+
   </article>
 </template>
 
