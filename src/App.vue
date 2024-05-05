@@ -42,6 +42,10 @@ footer {
   margin-top: 32px;
 }
 
+article {
+  padding: 0rem 6rem 0rem 6rem;
+}
+
 h2 {
   background-color: var(--bs-primary);
   color: white;
@@ -57,5 +61,36 @@ h2 {
   // box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(1.25px);
   -webkit-backdrop-filter: blur(2px);
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  article {
+    padding: 0rem 1rem 0rem 1rem;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  /* No changes needed */
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  /* No changes needed */
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  article {
+    padding: 0rem 2rem 0rem 2rem;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  article {
+    padding: 0rem 4rem 0rem 4rem;
+  }
 }
 </style>

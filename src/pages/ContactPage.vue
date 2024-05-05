@@ -19,11 +19,14 @@ export default {
     </div>
   </div>
 
-  <article class="row text-center">
-    <div class="col-12 px-0">
+
+  <div class="row">
+    <div class="col-12 px-0 text-center">
       <h2>The contact information needed to reach Puppy Love Suites</h2>
     </div>
+  </div>
 
+  <article class="row text-center">
     <div class="col-12">
       We'd love to hear from you! Whether you have questions about our services, want to schedule a tour of our
       facilities, or just want to say hello, we're here to help. Get in touch with us using the contact information

@@ -10,7 +10,7 @@
     </div>
   </div>
 
-  <div class="row my-3 g-3">
+  <article class="row my-3 g-3">
 
     <div class="col-12">
       <p class="fw-bold">Dog Boarding</p>
@@ -71,7 +71,7 @@
       <ContactUs />
     </div>
 
-  </div>
+  </article>
 
 </template>
 

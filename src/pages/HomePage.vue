@@ -76,6 +76,5 @@ import ContactUs from '../components/ContactUs.vue'
 .dismiss:hover {
   cursor: pointer;
   color: var(--bs-secondary);
-  // text-shadow: -1px 1px 2px black;
 }
 </style>

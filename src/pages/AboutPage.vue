@@ -17,7 +17,7 @@ import ContactUs from "../components/ContactUs.vue";
     </div>
   </div>
 
-  <div class="row g-2 my-3">
+  <article class="row g-2 my-3">
     <div class="col-12">
       <h4>This is why I do what I do.</h4>
       <p>
@@ -63,7 +63,7 @@ import ContactUs from "../components/ContactUs.vue";
       <ContactUs />
     </div>
 
-  </div>
+  </article>
   <!-- <div class="row">
 
     <div class="col-6">
