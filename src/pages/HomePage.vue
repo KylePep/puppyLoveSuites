@@ -1,4 +1,5 @@
 <script setup>
+import PhotoCarousel from '../components/PhotoCarousel.vue'
 import ContactUs from '../components/ContactUs.vue'
 </script>
 
@@ -21,6 +22,7 @@ import ContactUs from '../components/ContactUs.vue'
 
   <article class="row g-2 my-3">
 
+    <PhotoCarousel />
 
     <!-- <Notification /> -->
 
