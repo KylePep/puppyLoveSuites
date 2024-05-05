@@ -9,6 +9,7 @@ const router = useRouter();
 const closeModal = () => {
   Modal.getOrCreateInstance('#contactModal').hide()
   router.push({ name: 'Contact' });
+  window.scrollTo(0, 0);
 };
 
 </script>
