@@ -39,6 +39,7 @@ import Navbar from './components/Navbar.vue'
 
 footer {
   min-height: 128px;
+  margin-top: 32px;
 }
 
 h2 {

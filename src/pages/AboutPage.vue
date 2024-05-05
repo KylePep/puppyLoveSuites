@@ -12,12 +12,12 @@ import ContactUs from "../components/ContactUs.vue";
   </div>
 
   <div class="row">
-    <div class="col-12 px-0">
+    <div class="col-12 px-0 text-center">
       <h2>This is the about us, it's all about us the onwers and operators of Puppy Love Suites.</h2>
     </div>
   </div>
 
-  <div class="row g-2">
+  <div class="row g-2 my-3">
     <div class="col-12">
       <h4>This is why I do what I do.</h4>
       <p>
@@ -59,8 +59,11 @@ import ContactUs from "../components/ContactUs.vue";
       our family!
     </div>
 
-  </div>
+    <div class="col-12">
+      <ContactUs />
+    </div>
 
+  </div>
   <!-- <div class="row">
 
     <div class="col-6">
@@ -83,7 +86,6 @@ import ContactUs from "../components/ContactUs.vue";
   </div> -->
 
 
-  <ContactUs />
 </template>
 
 <style scoped lang="scss">

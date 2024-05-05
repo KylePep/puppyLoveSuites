@@ -19,10 +19,10 @@ import ContactUs from '../components/ContactUs.vue'
     </div>
   </div>
 
-  <article class="row g-2">
+  <article class="row g-2 my-3">
 
 
-    <Notification />
+    <!-- <Notification /> -->
 
 
     <div class="col-12">
@@ -57,7 +57,6 @@ import ContactUs from '../components/ContactUs.vue'
     </div>
 
     <div class="col-12">
-
       <ContactUs />
     </div>
   </article>

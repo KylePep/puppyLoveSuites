@@ -34,6 +34,27 @@ export default {
       <i class="separationMargin border-bottom border-2 border-primary w-75 align-items-center"> </i>
     </div>
 
+    <div class="col-12">
+      <h3 class="mdi mdi-phone fw-semibold"> Phone:
+      </h3>
+      <p>(208) 353-5939</p>
+    </div>
+
+    <div class="col-12 d-flex justify-content-center">
+      <i class="separationMargin border-bottom border-2 border-primary w-75 align-items-center"> </i>
+    </div>
+
+
+    <div class="col-12">
+      <h3 class="mdi mdi-email fw-semibold"> Email:
+      </h3>
+      <p>puppylovesuites@gmail.com</p>
+    </div>
+
+    <div class="col-12 d-flex justify-content-center">
+      <i class="separationMargin border-bottom border-2 border-primary w-75 align-items-center"> </i>
+    </div>
+
     <div class="col-12 fw-bold">Connect with us!</div>
 
     <div class="col-6 fs-5 fw-semibold">
@@ -80,27 +101,6 @@ export default {
       <p>10330 Lake Shore Dr, Nampa, ID 83686</p>
     </div>
 
-    <div class="col-12 d-flex justify-content-center">
-      <i class="separationMargin border-bottom border-2 border-primary w-75 align-items-center"> </i>
-    </div>
-
-
-    <div class="col-12">
-      <h3 class="mdi mdi-phone fw-semibold"> Phone:
-      </h3>
-      <p>(208) 353-5939</p>
-    </div>
-
-    <div class="col-12 d-flex justify-content-center">
-      <i class="separationMargin border-bottom border-2 border-primary w-75 align-items-center"> </i>
-    </div>
-
-
-    <div class="col-12">
-      <h3 class="mdi mdi-email fw-semibold"> Email:
-      </h3>
-      <p>puppylovesuites@gmail.com</p>
-    </div>
   </article>
 </template>
 
@@ -121,6 +121,6 @@ article>div {
 }
 
 .separationMargin {
-  margin: 2rem 0 2rem 0;
+  margin: 1.5rem 0 1.5rem 0;
 }
 </style>
