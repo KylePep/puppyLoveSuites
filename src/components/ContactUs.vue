@@ -17,7 +17,7 @@ const closeModal = () => {
 
 <template>
   <!-- Button trigger modal -->
-  <button type="button" class="btn btn-primary text-white fw-bold" data-bs-toggle="modal"
+  <button type="button" class="btn btn-primary rounded-4 text-white fw-bold" data-bs-toggle="modal"
     data-bs-target="#contactModal">
     CONTACT US
   </button>

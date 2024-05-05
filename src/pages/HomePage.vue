@@ -27,7 +27,7 @@ import Notification from "../components/Notification.vue";
     <div class="row">
       <div class="col-6 px-0 d-flex justify-content-end mb-3">
         <router-link :to="{ name: 'About' }"
-          class="btn text-white fw-bold bg-primary rounded selectable text-uppercase">
+          class="btn text-white fw-bold bg-primary rounded-4 selectable text-uppercase">
           About Us
         </router-link>
       </div>

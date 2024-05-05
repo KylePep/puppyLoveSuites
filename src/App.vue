@@ -26,7 +26,7 @@ import Navbar from './components/Navbar.vue'
         <i class="mdi mdi-instagram fs-2 text-light py-1 px-2"></i>
       </div>
       <div class="col-6 d-flex justify-content-start px-0">
-        <p class="fs-5 fw-semibold text-light bg-primary rounded px-2 py-1 mb-0 ">(208) 353-5939</p>
+        <p class="fs-5 fw-semibold text-light bg-primary rounded-4 px-2 py-1 mb-0 ">(208) 353-5939</p>
       </div>
       <router-link :to="{ name: 'Contact' }" class="btn text-light lighten-30 selectable text-uppercase">
         10330 Lake Shore Dr, Nampa, ID 83686 | puppylovesuites@gmail.com
