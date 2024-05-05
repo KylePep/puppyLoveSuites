@@ -1,7 +1,6 @@
 <script setup>
 import { Modal } from "bootstrap";
 import { useRouter } from "vue-router";
-// import bootstrap from "bootstrap";
 
 const hours = ["Sunday|Closed", "Monday|8AM-6PM", "Tuesday|8AM-6PM", "Wednesday|8AM-6PM", "Thursday|8AM-6PM", "Friday|8AM-6PM", "Saturday|9AM-12PM",]
 
@@ -9,8 +8,6 @@ const router = useRouter();
 
 const closeModal = () => {
   Modal.getOrCreateInstance('#contactModal').hide()
-
-  // Navigate to the Contact page using Vue Router's programmatic navigation
   router.push({ name: 'Contact' });
 };
 
@@ -31,8 +28,8 @@ const closeModal = () => {
         <div class="modal-header">
           <h1 class="modal-title fw-bold fs-5" id="contactModalLabel">
             <button @click="closeModal"
-              class="btn bg-primary text-light px-2 py-1 rounded selectable text-uppercase fs-3 fw-bold">
-              CONTACT US
+              class="btn bg-primary text-white px-2 py-1 rounded selectable text-uppercase fs-3 fw-bold">
+              CONTACT PAGE
             </button>
           </h1>
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
@@ -58,12 +55,19 @@ const closeModal = () => {
                   </div>
                   <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                     <div class="accordion-body">
-                      <ul>
-                        <li v-for="hour in hours" :key="hour"> {{ ' ' + hour.split('|')[0]
-                          }}
-                          {{
-              hour.split('|')[1] }}</li>
-                      </ul>
+                      <table class="table">
+                        <tbody>
+                          <tr v-for="hour, index in hours" :key="index"
+                            :class="[index % 2 == 0 ? 'table-secondary' : '']">
+                            <th scope="row"></th>
+                            <td>{{ hour.split('|')[0]
+                              }}</td>
+
+                            <td>{{
+              hour.split('|')[1] }}</td>
+                          </tr>
+                        </tbody>
+                      </table>
                     </div>
                   </div>
                 </div>
@@ -91,7 +95,7 @@ ul {
   list-style-type: none;
 }
 
-ul>li {
+.modal-body>ul>li {
   margin-top: 1rem;
 }
 </style>
