@@ -15,15 +15,27 @@ import Navbar from './components/Navbar.vue'
     <router-view />
   </main>
 
-  <footer class="container-fluid d-flex bg-secondary text-light">
-    <div class="row flex-grow-1 align-items-center">
-      <p class="col-12 col-sm-6 text-center">
-        Puppy Love Copyright Stuff
-      </p>
-      <div class="col-12 col-sm-6 text-center">
-        <router-link :to="{ name: 'Contact' }" class="btn text-light lighten-30 selectable text-uppercase">
-          Contact Us
-        </router-link>
+  <footer class="container-fluid d-flex bg-secondary text-light ">
+    <div class="row flex-grow-1 align-items-center justify-content-center py-5">
+      <div class="col-12 text-center fw-bold fs-4">
+        Puppy Love Suites
+      </div>
+
+      <div class="col-6 d-flex justify-content-end px-0">
+        <i class="mdi mdi-facebook fs-2 text-light py-1 px-2"></i>
+        <i class="mdi mdi-instagram fs-2 text-light py-1 px-2"></i>
+      </div>
+      <div class="col-6 d-flex justify-content-start px-0">
+        <p class="fs-5 fw-semibold text-light bg-primary rounded px-2 py-1 mb-0 ">(208) 353-5939</p>
+      </div>
+      <router-link :to="{ name: 'Contact' }" class="btn text-light lighten-30 selectable text-uppercase">
+        10330 Lake Shore Dr, Nampa, ID 83686 | puppylovesuites@gmail.com
+      </router-link>
+
+      <div class="col-12">
+        <p class=" text-center">
+          Puppy Love Copyright Stuff
+        </p>
       </div>
     </div>
   </footer>
@@ -38,7 +50,7 @@ import Navbar from './components/Navbar.vue'
 }
 
 footer {
-  min-height: 128px;
+  // min-height: 256px;
   margin-top: 32px;
 }
 

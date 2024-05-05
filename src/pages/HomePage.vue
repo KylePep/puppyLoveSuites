@@ -46,6 +46,15 @@ import Notification from "../components/Notification.vue";
       <ContactUs />
     </div>
 
+    <div class="row px-0 my-5 mx-0">
+      <div class="col-4 text-center text-secondary py-2 fw-semibold">Heated and Cooled Suites</div>
+      <div
+        class="col-4 text-center text-secondary py-2 fw-semibold border border-primary border-2 border-top-0 border-bottom-0">
+        Personal
+        play time</div>
+      <div class="col-4 text-center text-secondary py-2 fw-semibold">Group Play</div>
+    </div>
+
     <div class="col-12">
       At Puppy Love Suites, we understand that your furry friend is more than just a pet – they're a cherished member of
       your family. That's why we provide top-notch dog boarding services designed to pamper your pooch and give you
