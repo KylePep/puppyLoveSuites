@@ -48,8 +48,9 @@ function toggleTheme() {
       </ul>
       <!-- LOGIN COMPONENT HERE -->
       <div>
+        <i class="mdi mdi-facebook fs-3 text-light me-2"></i>
         <i class="mdi mdi-instagram fs-3 text-light me-2"></i>
-        <i class="mdi mdi-facebook fs-3 text-light"></i>
+        <i class="mdi mdi-paw fs-3 text-light"></i>
       </div>
       <!-- <div>
         <button class="btn text-light" @click="toggleTheme"

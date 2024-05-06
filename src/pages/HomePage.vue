@@ -25,14 +25,14 @@ import Notification from "../components/Notification.vue";
 
     <!-- <Notification /> -->
     <div class="row">
-      <div class="col-6 px-0 d-flex justify-content-end mb-3">
+      <div class="col-6 px-0 d-flex justify-content-end align-items-center">
         <router-link :to="{ name: 'About' }"
-          class="btn text-white fw-bold bg-primary rounded-4 selectable text-uppercase">
+          class="btn text-white fw-bold bg-primary px-3 py-1 rounded-4 selectable text-uppercase">
           About Us
         </router-link>
       </div>
       <div class="col-6 px-0">
-        <router-link :to="{ name: 'Boarding' }" class="btn text-primary lighten-30 selectable text-uppercase">
+        <router-link :to="{ name: 'Boarding' }" class="btn text-primary selectable text-start text-uppercase">
           Learn about Boarding
         </router-link>
       </div>
@@ -46,16 +46,26 @@ import Notification from "../components/Notification.vue";
       <ContactUs />
     </div>
 
-    <div class="row px-0 my-5 mx-0">
-      <div class="col-4 text-center text-secondary py-2 fw-semibold">Heated and Cooled Suites</div>
-      <div
-        class="col-4 text-center text-secondary py-2 fw-semibold border border-primary border-2 border-top-0 border-bottom-0">
-        Personal
-        play time</div>
-      <div class="col-4 text-center text-secondary py-2 fw-semibold">Group Play</div>
+    <div class="row my-4 p-0">
+      <div class="col-3 m-auto highlight">
+        <h3 class=" ">Play</h3>
+        <h4>blerb</h4>
+        <p>Solo and group play</p>
+      </div>
+      <div class="col-3 m-auto highlight">
+        <h3 class=" ">Sleep</h3>
+        <h4>blerb</h4>
+
+        <p>Individual headed and cooled suites</p>
+      </div>
+      <div class="col-3 m-auto highlight">
+        <h3 class=" ">Eat</h3>
+        <h4>blerb</h4>
+        <p>Individual feeding respecting dietary needs</p>
+      </div>
     </div>
 
-    <div class="col-12">
+    <!-- <div class="col-12">
       At Puppy Love Suites, we understand that your furry friend is more than just a pet – they're a cherished member of
       your family. That's why we provide top-notch dog boarding services designed to pamper your pooch and give you
       peace of mind while you're away.
@@ -84,7 +94,7 @@ import Notification from "../components/Notification.vue";
       So whether you're heading out of town for a weekend getaway or a longer vacation, trust Puppy Love Suites to
       provide the love, attention, and care your dog deserves. Contact us today to schedule a tour of our facilities or
       reserve a spot for your furry friend's next stay. Let us be your dog's home away from home!
-    </div>
+    </div> -->
 
 
   </article>
@@ -97,6 +107,35 @@ import Notification from "../components/Notification.vue";
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 10rem;
+}
+
+.highlight {
+  background-color: white;
+  margin: 0rem 1rem 0rem 1rem;
+  padding: 0;
+
+  >h3 {
+    background-color: var(--bs-secondary);
+    color: var(--bs-light);
+    font-size: large;
+    text-align: center;
+    margin-bottom: 0;
+    padding: 1rem 0rem 1rem 0rem;
+  }
+
+  >h4 {
+    background-color: var(--bs-secondary);
+    color: var(--bs-light);
+    font-size: small;
+    text-align: center;
+
+    padding: 0rem 0rem 1rem 0rem;
+  }
+
+  >p {
+    color: var(--bs-secondary);
+    padding: 0rem 1rem 1rem 1rem;
+  }
 }
 
 .dismiss:hover {

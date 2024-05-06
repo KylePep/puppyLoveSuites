@@ -18,15 +18,18 @@ import Navbar from './components/Navbar.vue'
   <footer class="container-fluid d-flex bg-secondary text-light ">
     <div class="row flex-grow-1 align-items-center justify-content-center py-5">
       <div class="col-12 text-center fw-bold fs-4">
-        Puppy Love Suites
+        <router-link :to="{ name: 'Home' }" class="text-light text-center selectable fw-bold fs-4">
+          Puppy Love Suites
+        </router-link>
       </div>
 
       <div class="col-6 d-flex justify-content-end px-0">
         <i class="mdi mdi-facebook fs-2 text-light py-1 px-2"></i>
         <i class="mdi mdi-instagram fs-2 text-light py-1 px-2"></i>
+        <i class="mdi mdi-paw fs-2 text-light py-1 px-2"></i>
       </div>
       <div class="col-6 d-flex justify-content-start px-0">
-        <p class="fs-5 fw-semibold text-light bg-primary rounded-4 px-2 py-1 mb-0 ">(208) 353-5939</p>
+        <p class="fs-6 fw-semibold text-light bg-primary rounded-4 px-2 py-2 mb-0 ">(208) 353-5939</p>
       </div>
       <router-link :to="{ name: 'Contact' }" class="btn text-light lighten-30 selectable text-uppercase">
         10330 Lake Shore Dr, Nampa, ID 83686 | puppylovesuites@gmail.com
