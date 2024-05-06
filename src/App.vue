@@ -54,10 +54,6 @@ footer {
   margin-top: 32px;
 }
 
-article {
-  padding: 0rem 6rem 0rem 6rem;
-}
-
 h2 {
   background-color: var(--bs-primary);
   color: white;
@@ -84,25 +80,35 @@ h2 {
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
+  article {
+    padding: 0rem 3rem 0rem 3rem;
+  }
+
   /* No changes needed */
+
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
+  article {
+    padding: 0rem 4rem 0rem 4rem;
+  }
+
   /* No changes needed */
+
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
   article {
-    padding: 0rem 2rem 0rem 2rem;
+    padding: 0rem 6rem 0rem 6rem;
   }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
   article {
-    padding: 0rem 4rem 0rem 4rem;
+    padding: 0rem 12rem 0rem 12rem;
   }
 }
 </style>
