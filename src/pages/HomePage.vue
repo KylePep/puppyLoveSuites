@@ -21,30 +21,44 @@ import Notification from "../components/Notification.vue";
     </div>
   </div>
 
-  <article class="row position-relative g-2 my-3">
+  <article class="row position-relative">
 
+    <div class="col-12">
+      <p class="fs-6">Beyond exceptional care, we also strive to create a welcoming and
+        inclusive
+        environment
+        for both dogs and
+        their
+        humans. We believe in building relationships with our clients based on trust, transparency, and genuine
+        compassion
+        for animals. </p>
+    </div>
 
-    <div class="row mb-3">
-      <div class="col-6 px-0 d-flex justify-content-end align-items-center">
-        <router-link :to="{ name: 'About' }"
-          class="btn text-white fw-bold bg-primary px-3 py-1 rounded-4 selectable text-uppercase">
-          About Us
-        </router-link>
+    <div class="col-12">
+      <div class="row mb-3">
+        <div class="col-6 px-0 d-flex justify-content-end align-items-center">
+          <router-link :to="{ name: 'About' }"
+            class="btn text-white fw-bold bg-primary px-3 py-1 rounded-4 selectable text-uppercase">
+            About Us
+          </router-link>
+        </div>
+        <div class="col-6 px-0">
+          <router-link :to="{ name: 'Boarding' }" class="btn text-primary selectable text-start text-uppercase">
+            Learn about Boarding
+          </router-link>
+        </div>
       </div>
-      <div class="col-6 px-0">
-        <router-link :to="{ name: 'Boarding' }" class="btn text-primary selectable text-start text-uppercase">
-          Learn about Boarding
-        </router-link>
-      </div>
 
-      <Notification />
+      <!-- <Notification /> -->
 
     </div>
 
+    <div class="col-12">
+      <PhotoCarousel />
+    </div>
 
-    <PhotoCarousel />
 
-    <div class="col-12 my-3 d-flex justify-content-center">
+    <div class="col-12 d-flex justify-content-center">
       <ContactUs />
     </div>
 
@@ -81,21 +95,18 @@ import Notification from "../components/Notification.vue";
 
     </div> -->
 
-    <div class="row">
-      <p class=" fs-5">Beyond exceptional care, we also strive to create a welcoming and
-        inclusive
-        environment
-        for both dogs and
-        their
-        humans. We believe in building relationships with our clients based on trust, transparency, and genuine
-        compassion
-        for animals. </p>
-    </div>
-
   </article>
 </template>
 
 <style scoped lang="scss">
+article {
+  margin: 6rem 0rem;
+
+  >div {
+    margin: 2rem 0rem;
+  }
+}
+
 .Hero {
   background-image: url(https://images.unsplash.com/photo-1581888227599-779811939961?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
   background-position: 0% 60%;
