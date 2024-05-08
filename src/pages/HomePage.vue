@@ -24,12 +24,12 @@ import Notification from "../components/Notification.vue";
   <article class="row position-relative">
 
     <div class="col-12">
-      <p class="fs-6">Beyond exceptional care, we also strive to create a welcoming and
+      <p class="fs-6 text-center">Beyond exceptional care, we also strive to create a welcoming and
         inclusive
         environment
         for both dogs and
         their
-        humans. We believe in building relationships with our clients based on trust, transparency, and genuine
+        humans. <br> We believe in building relationships with our clients based on trust, transparency, and genuine
         compassion
         for animals. </p>
     </div>
@@ -100,7 +100,7 @@ import Notification from "../components/Notification.vue";
 
 <style scoped lang="scss">
 article {
-  margin: 6rem 0rem;
+  margin: 2rem 0rem;
 
   >div {
     margin: 2rem 0rem;

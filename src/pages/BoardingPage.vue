@@ -31,6 +31,28 @@
     </div>
 
     <div class="col-12">
+      <h4>FAQ</h4>
+      <div class="row">
+
+        <div class="col-12">
+          <h5>What about the poop?</h5>
+          <p>It gets cleaned up.</p>
+        </div>
+
+        <div class="col-12">
+          <h5>What about cats?</h5>
+          <p>What about cats.</p>
+        </div>
+
+        <div class="col-12">
+          <h5>Do you have a good banana bread recipe?</h5>
+          <p>I do but I won't tell you.</p>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="col-12">
       <ContactUs />
     </div>
 
@@ -52,7 +74,7 @@ export default {
 
 <style lang="scss" scoped>
 article {
-  margin: 6rem 0rem;
+  margin: 2rem 0rem;
 
   >div {
     margin: 2rem 0rem;

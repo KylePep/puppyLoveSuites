@@ -101,7 +101,7 @@ import ContactUs from "../components/ContactUs.vue";
 
 <style scoped lang="scss">
 article {
-  margin: 6rem 0rem;
+  margin: 2rem 0rem;
 
   >div {
     margin: 2rem 0rem;
