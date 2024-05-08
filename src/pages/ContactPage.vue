@@ -26,7 +26,7 @@ export default {
     </div>
   </div>
 
-  <article class="row text-center">
+  <article class="row text-center my-3">
     <div class="col-12">
       We'd love to hear from you! Whether you have questions about our services, want to schedule a tour of our
       facilities, or just want to say hello, we're here to help. Get in touch with us using the contact information

@@ -47,7 +47,7 @@ import Notification from "../components/Notification.vue";
     </div>
 
     <!-- Need to stress test these, will likely break uniformity -->
-    <div class="row px-0 my-0 g-3 highlight-row">
+    <!-- <div class="row px-0 my-0 g-3 highlight-row">
 
       <div class="col-6 col-md-4 highlight">
         <div>
@@ -77,50 +77,18 @@ import Notification from "../components/Notification.vue";
         </div>
       </div>
 
-      <div class="row mt-3">
-        <p class="text-center fs-4">Beyond exceptional care, we also strive to create a welcoming and
-          inclusive
-          environment
-          for both dogs and
-          their
-          humans. We believe in building relationships with our clients based on trust, transparency, and genuine
-          compassion
-          for animals. </p>
-      </div>
-
-    </div>
-
-    <!-- <div class="col-12">
-      At Puppy Love Suites, we understand that your furry friend is more than just a pet – they're a cherished member of
-      your family. That's why we provide top-notch dog boarding services designed to pamper your pooch and give you
-      peace of mind while you're away.
-    </div>
-
-    <div class="col-12">
-      Our luxury suites offer a cozy retreat for your beloved companion, complete with heated floors in the chilly
-      months and air conditioning in the summer, personalized attention, and plenty of playtime in our secure,
-      supervised indoor and outdoor areas. Whether your pup prefers romping around with new friends or simply lounging
-      in the sunshine, we cater to their every need and preference.
-    </div>
-
-    <div class="col-12">
-      Safety is our top priority, which is why our facility is equipped with state-of-the-art security measures and
-      staffed by trained professionals who are passionate about caring for dogs. You can rest assured knowing that your
-      furry friend is in good hands during their stay with us.
-    </div>
-
-    <div class="col-12">
-      Beyond exceptional care, we also strive to create a welcoming and inclusive environment for both dogs and their
-      humans. We believe in building relationships with our clients based on trust, transparency, and genuine compassion
-      for animals.
-    </div>
-
-    <div class="col-12">
-      So whether you're heading out of town for a weekend getaway or a longer vacation, trust Puppy Love Suites to
-      provide the love, attention, and care your dog deserves. Contact us today to schedule a tour of our facilities or
-      reserve a spot for your furry friend's next stay. Let us be your dog's home away from home!
     </div> -->
 
+    <div class="row">
+      <p class="text-center fs-4">Beyond exceptional care, we also strive to create a welcoming and
+        inclusive
+        environment
+        for both dogs and
+        their
+        humans. We believe in building relationships with our clients based on trust, transparency, and genuine
+        compassion
+        for animals. </p>
+    </div>
 
   </article>
 </template>

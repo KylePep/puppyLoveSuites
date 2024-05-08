@@ -6,7 +6,7 @@
   </div>
   <div class="row">
     <div class="col-12 px-0 text-center">
-      <h2>Remember that when you board with Puppy Love Suites you're boarding with the best!</h2>
+      <h2>Sweet Suites!</h2>
     </div>
   </div>
 
