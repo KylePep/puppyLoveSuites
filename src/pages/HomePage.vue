@@ -23,7 +23,7 @@ import Notification from "../components/Notification.vue";
 
   <article class="row position-relative g-2 my-3">
 
-    <!-- <Notification /> -->
+
     <div class="row mb-3">
       <div class="col-6 px-0 d-flex justify-content-end align-items-center">
         <router-link :to="{ name: 'About' }"
@@ -36,6 +36,8 @@ import Notification from "../components/Notification.vue";
           Learn about Boarding
         </router-link>
       </div>
+
+      <Notification />
 
     </div>
 
@@ -80,7 +82,7 @@ import Notification from "../components/Notification.vue";
     </div> -->
 
     <div class="row">
-      <p class="text-center fs-4">Beyond exceptional care, we also strive to create a welcoming and
+      <p class=" fs-5">Beyond exceptional care, we also strive to create a welcoming and
         inclusive
         environment
         for both dogs and

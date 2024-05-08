@@ -24,9 +24,9 @@ import Navbar from './components/Navbar.vue'
       </div>
 
       <div class="col-6 d-flex justify-content-end px-0">
-        <i class="mdi mdi-facebook fs-2 text-light py-1 px-2"></i>
-        <i class="mdi mdi-instagram fs-2 text-light py-1 px-2"></i>
-        <i class="mdi mdi-paw fs-2 text-light py-1 px-2"></i>
+        <i class="mdi mdi-facebook fs-2 text-light py-1 px-2 selectable"></i>
+        <i class="mdi mdi-instagram fs-2 text-light py-1 px-2 selectable"></i>
+        <i class="mdi mdi-paw fs-2 text-light py-1 px-2 selectable"></i>
       </div>
       <div class="col-6 d-flex justify-content-start px-0">
         <p class="fs-6 fw-semibold text-light bg-primary rounded-4 px-2 py-2 mb-0 selectable ">(208) 353-5939</p>
