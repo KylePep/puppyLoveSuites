@@ -7,9 +7,9 @@ import Notification from "../components/Notification.vue";
 <template>
   <div class="Hero row d-flex flex-column justify-content-center">
     <div class="col-12 d-flex glassmorph text-white text-center flex-column justify-content-center flex-grow-1">
-      <h1 class="">Welcome to Puppy Love Suites</h1>
+      <h1 class="">Puppy Love Suites</h1>
 
-      <p class="">Drop your dogs off, they deserve a vacation from you too!</p>
+      <p class="">Love and Play with Every Stay</p>
     </div>
   </div>
 

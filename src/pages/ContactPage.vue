@@ -22,7 +22,7 @@ export default {
 
   <div class="row">
     <div class="col-12 px-0 text-center">
-      <h2>The contact information needed to reach Puppy Love Suites</h2>
+      <h2>We want to hear from you!</h2>
     </div>
   </div>
 
@@ -60,12 +60,12 @@ export default {
 
     <h3 class="col-12 mdi mdi-web fw-bold"> Connect with us:</h3>
 
-    <div class="row mx-0">
-      <div class="col-5 mx-auto fs-5 fw-semibold btn text-white bg-primary px-1 py-1 rounded-4 selectable">
+    <div class="row mx-0 g-2">
+      <div class="col-12 col-md-5 mx-auto fs-5 fw-semibold btn text-white bg-primary px-1 py-1 rounded-4 selectable">
         <i class="mdi mdi-instagram"></i> puppy_love_suites
       </div>
 
-      <div class="col-5 mx-auto fs-5 fw-semibold btn text-white bg-primary px-1 py-1 rounded-4 selectable">
+      <div class="col-12 col-md-5 mx-auto fs-5 fw-semibold btn text-white bg-primary px-1 py-1 rounded-4 selectable">
         <i class=" mdi mdi-facebook"></i> Puppy Love Suites
       </div>
 
