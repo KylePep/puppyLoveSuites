@@ -146,7 +146,7 @@ import Notification from "../components/Notification.vue";
     border-radius: 6px 6px 6px 6px;
     display: flex;
     flex-direction: column;
-    box-shadow: 2px 2px 6px rgb(120, 129, 142);
+    // box-shadow: 2px 2px 6px rgb(120, 129, 142);
 
 
     >h3 {

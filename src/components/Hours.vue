@@ -2,15 +2,15 @@
   <div v-if="isSmallScreen" class="d-flex flex-column justify-content-center align-items-center">
     <div v-for="day in longDays" :key="day"
       :class="[day.split('|')[0] == 'Sunday' || day.split('|')[0] == 'Saturday' ? 'bg-light' : 'bg-white', day.split('|')[0] == 'Sunday' ? 'border-bottom-1 rounded-top-1' : 'border-top-0', day.split('|')[0] == 'Saturday' ? 'rounded-bottom-1' : '']"
-      class="d-flex flex-column border border-2 border-secondary w-75 text-center">
+      class="d-flex flex-column border border-2 border-primary w-75 text-center">
       <p class="bg-primary text-white fw-bold px-2 py-2 mb-0">{{ day.split('|')[0] }}</p>
 
       <div class="d-flex flex-row justify-content-center py-2">
 
-        <div class="px-2">{{
+        <div class="px-2 fw-semibold">{{
     day.split('|')[1].split('-')[0] }}</div>
-        <i v-if="day != 'Sunday|Closed'">-</i>
-        <div v-if="day != 'Sunday|Closed'" class="px-2">{{ day.split('|')[1].split('-')[1] }}</div>
+        <i v-if="day != 'Sunday|Closed'" class="fw-semibold">-</i>
+        <div v-if="day != 'Sunday|Closed'" class="px-2 fw-semibold">{{ day.split('|')[1].split('-')[1] }}</div>
 
       </div>
 
@@ -22,14 +22,14 @@
     <div class="d-flex flex-row w-100">
       <div v-for="day in longDays" :key="day"
         :class="[day.split('|')[0] == 'Sunday' || day.split('|')[0] == 'Saturday' ? 'bg-light' : 'bg-white', day.split('|')[0] == 'Sunday' ? 'border-start-2 rounded-start' : 'border-start-0', day.split('|')[0] == 'Saturday' ? 'rounded-end' : '']"
-        class="d-flex flex-column flex-grow-1 border border-2 border-secondary text-center">
+        class="d-flex flex-column flex-grow-1 border border-2 border-primary text-center">
         <div class="bg-primary text-white fw-bold px-2 py-2">{{ day.split('|')[0] }}</div>
 
         <div class="d-flex flex-column flex-grow-1 ">
-          <div class="px-2 ">{{
+          <div class="px-2 fw-semibold">{{
     day.split('|')[1].split('-')[0] }}</div>
           <i v-if="day != 'Sunday|Closed'" class="fw-semibold">-</i>
-          <div v-if="day != 'Sunday|Closed'" class="px-2">{{ day.split('|')[1].split('-')[1] }} </div>
+          <div v-if="day != 'Sunday|Closed'" class="px-2 fw-semibold">{{ day.split('|')[1].split('-')[1] }} </div>
         </div>
       </div>
     </div>

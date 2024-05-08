@@ -40,7 +40,7 @@ export default {
     <div class="col-12">
       <h3 class="mdi mdi-phone fw-semibold"> Phone:
       </h3>
-      <p>(208) 353-5939</p>
+      <p class="fs-5 fw-semibold btn text-white bg-primary px-2 py-1 rounded-4 selectable">(208) 353-5939</p>
     </div>
 
     <div class="col-12 d-flex justify-content-center">
@@ -51,34 +51,42 @@ export default {
     <div class="col-12">
       <h3 class="mdi mdi-email fw-semibold"> Email:
       </h3>
-      <p>puppylovesuites@gmail.com</p>
+      <p class="fs-5 fw-semibold btn text-white bg-primary px-3 py-1 rounded-4 selectable">puppylovesuites@gmail.com</p>
     </div>
 
     <div class="col-12 d-flex justify-content-center">
       <i class="separationMargin border-bottom border-2 border-primary w-75 align-items-center"> </i>
     </div>
 
-    <div class="col-12 fw-bold">Connect with us!</div>
+    <h3 class="col-12 mdi mdi-web fw-bold"> Connect with us:</h3>
 
-    <div class="col-6 fs-5 fw-semibold">
-      <i class="mdi mdi-instagram"></i> puppy_love_suites
+    <div class="row mx-0">
+      <div class="col-5 mx-auto fs-5 fw-semibold btn text-white bg-primary px-1 py-1 rounded-4 selectable">
+        <i class="mdi mdi-instagram"></i> puppy_love_suites
+      </div>
+
+      <div class="col-5 mx-auto fs-5 fw-semibold btn text-white bg-primary px-1 py-1 rounded-4 selectable">
+        <i class=" mdi mdi-facebook"></i> Puppy Love Suites
+      </div>
+
     </div>
 
-    <div class="col-6 fs-5 fw-semibold">
-      <i class="mdi mdi-facebook"></i> Puppy Love Suites
-    </div>
 
     <div class="col-12 d-flex justify-content-center">
       <i class="separationMargin border-bottom border-2 border-primary w-75 align-items-center"> </i>
     </div>
 
     <div class="col-12">
-      <p class="fw-bold">Schedule a Visit:</p>
-      Ready to see Puppy Love Suites for yourself? We'd love to give you a tour of our facilities and introduce you to
-      our dedicated team. Contact us today to schedule your visit and experience the Puppy Love Suites difference
-      firsthand. <br> Thank you for considering Puppy Love Suites for your furry friend's care. We can't wait to welcome
-      you into our family!
+      <h3 class="mdi mdi-calendar-month fw-bold"> Schedule a Visit:</h3>
+      <p class="">
+        Ready to see Puppy Love Suites for yourself? We'd love to give you a tour of our facilities and introduce you to
+        our dedicated team. Contact us today to schedule your visit and experience the Puppy Love Suites difference
+        firsthand. <br> Thank you for considering Puppy Love Suites for your furry friend's care. We can't wait to
+        welcome
+        you into our family!
+      </p>
     </div>
+    <p class="fs-5 fw-semibold btn text-white bg-primary px-3 py-1 rounded-4 selectable">?Schedule?</p>
 
     <div class="col-12 d-flex justify-content-center">
       <i class="separationMargin border-bottom border-2 border-primary w-75 align-items-center"> </i>
@@ -98,10 +106,10 @@ export default {
     <div class="col-12">
       <h3 class="mdi mdi-home-variant fw-semibold"> Address:
       </h3>
-      <iframe class="border border-2 border-secondary rounded"
+      <iframe class="border border-2 border-primary rounded"
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2893.605939266819!2d-116.59967929999998!3d43.51055549999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54ae49b3d5ccf939%3A0x7870a107ef3ae032!2sPuppy%20Love%20Suites!5e0!3m2!1sen!2sus!4v1714639389907!5m2!1sen!2sus"
         width="75%" height="225" style="border:0;" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-      <p>10330 Lake Shore Dr, Nampa, ID 83686</p>
+      <p class="fw-semibold">10330 Lake Shore Dr, Nampa, ID 83686</p>
     </div>
 
   </article>
