@@ -11,6 +11,11 @@
   </div>
 
   <article class="row my-3 g-3">
+    <div class="col-12">
+      <h3 class="text-center bg-secondary text-light px-2 py-2 rounded">
+        In order to book your dogs boarding please call <br> //Phone Number//
+      </h3>
+    </div>
 
     <div class="col-12">
       <h3 class="fw-bold">Dog Boarding</h3>
@@ -18,42 +23,86 @@
       the perfect home away from home for dogs of all shapes and sizes. // Heated and cooled suites.
     </div>
 
-    <div>
-      <h3>PRICES</h3>
-      <table class="table table-hover ">
-        <thead class="">
-          <th scope="col">Description</th>
-          <th scope="col">Rate</th>
-        </thead>
-        <tbody>
+    <div class="col-12">
+      <div class="row">
+        <div class="col-12 col-md-6">
 
-          <tr class="table-primary">
-            <td scope="row">Suite 1st dog</td>
-            <td>$40 per night</td>
-          </tr>
+          <h3>PRICES</h3>
+          <table class="table table-hover ">
+            <thead class="">
+              <th scope="col">Item</th>
+              <th scope="col">Rate</th>
+              <th scope="col">Description</th>
+            </thead>
+            <tbody>
 
-          <tr class="">
-            <td scope="row">Same suite additional dog(s)</td>
-            <td>$33 per dog, per night</td>
-          </tr>
+              <tr class="table-primary">
+                <td scope="row">Single Dog</td>
+                <td>$40 per night</td>
+                <td>
+                  <ul>
+                    <li>One Suite</li>
+                    <li>One Dog</li>
+                  </ul>
+                </td>
+              </tr>
 
-          <tr class="table-primary">
-            <td scope="row">Sunday and after hours pick up or drop off</td>
-            <td>$50</td>
-          </tr>
+              <tr class="">
+                <td scope="row">Additional dog(s)</td>
+                <td>$33 per dog, per night</td>
+                <td>
+                  <ul>
+                    <li>One Suite</li>
+                    <li>more than one dog</li>
+                    <li>must get along</li>
+                  </ul>
+                </td>
+              </tr>
 
-          <tr class="">
-            <td scope="row">Medication administration</td>
-            <td>$3 per day</td>
-          </tr>
+              <tr class="table-primary">
+                <td scope="row">Sunday and after hours pick up or drop off</td>
+                <td>$50</td>
+                <td>
+                  <ul>
+                    <li>Must call ahead of time</li>
+                  </ul>
+                </td>
+              </tr>
 
-          <tr class="table-primary">
-            <td scope="row">Food provided by Puppy Love Suites</td>
-            <td>$5 per day</td>
-          </tr>
+              <tr class="">
+                <td scope="row">Medication administration</td>
+                <td>$3 per day</td>
+                <td>
+                  <ul>
+                    <li>Medication is not provided</li>
+                    <li>Must be able to provide dosage and frequency</li>
+                  </ul>
+                </td>
+              </tr>
 
-        </tbody>
-      </table>
+              <tr class="table-primary">
+                <td scope="row">Food provided by Puppy Love Suites</td>
+                <td>$5 per day</td>
+                <td>
+                  <ul>
+                    <li>X dog foods to choose from</li>
+                    <li>Brands are selected by Puppy Love Suites</li>
+                    <li>It is encouraged to provide your dogs regular food</li>
+                  </ul>
+                </td>
+              </tr>
+
+            </tbody>
+          </table>
+        </div>
+
+        <div class="col-12 col-md-6">
+          <img class="img-fluid"
+            src="https://images.unsplash.com/photo-1565674244283-993fb27a215f?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt="">
+        </div>
+      </div>
+
     </div>
 
     <div class="col-12">
