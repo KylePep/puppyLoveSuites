@@ -35,7 +35,7 @@ export default {
     </div>
 
     <div class="col-12 d-flex justify-content-center">
-      <i class="separationMargin border-bottom border-2 border-primary w-75 align-items-center"> </i>
+      <i class="separationMargin border-bottom border-2 border-primary w-100 align-items-center"> </i>
     </div>
 
     <div class="col-12">
@@ -45,7 +45,7 @@ export default {
     </div>
 
     <div class="col-12 d-flex justify-content-center">
-      <i class="separationMargin border-bottom border-2 border-primary w-75 align-items-center"> </i>
+      <i class="separationMargin border-bottom border-2 border-primary w-100 align-items-center"> </i>
     </div>
 
 
@@ -56,7 +56,7 @@ export default {
     </div>
 
     <div class="col-12 d-flex justify-content-center">
-      <i class="separationMargin border-bottom border-2 border-primary w-75 align-items-center"> </i>
+      <i class="separationMargin border-bottom border-2 border-primary w-100 align-items-center"> </i>
     </div>
 
     <h3 class="col-12 mdi mdi-web fw-bold"> Connect with us:</h3>
@@ -74,7 +74,7 @@ export default {
 
 
     <div class="col-12 d-flex justify-content-center">
-      <i class="separationMargin border-bottom border-2 border-primary w-75 align-items-center"> </i>
+      <i class="separationMargin border-bottom border-2 border-primary w-100 align-items-center"> </i>
     </div>
 
     <div class="col-12">
@@ -90,7 +90,7 @@ export default {
     <p class="fs-5 fw-semibold btn text-white bg-primary px-3 py-1 rounded-4 selectable">//Call to schedule</p>
 
     <div class="col-12 d-flex justify-content-center">
-      <i class="separationMargin border-bottom border-2 border-primary w-75 align-items-center"> </i>
+      <i class="separationMargin border-bottom border-2 border-primary w-100 align-items-center"> </i>
     </div>
 
     <div class="col-12 d-flex flex-column">
@@ -101,7 +101,7 @@ export default {
     </div>
 
     <div class="col-12 d-flex justify-content-center">
-      <i class="separationMargin border-bottom border-2 border-primary w-75 align-items-center"> </i>
+      <i class="separationMargin border-bottom border-2 border-primary w-100 align-items-center"> </i>
     </div>
 
     <div class="col-12">

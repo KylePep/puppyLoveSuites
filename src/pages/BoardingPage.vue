@@ -13,22 +13,30 @@
   <article class="row my-3 g-3">
     <div class="col-12">
       <h3 class="text-center bg-secondary text-light px-2 py-2 rounded">
-        In order to book your dogs boarding please call <br> //Phone Number//
+        In order to book your dogs boarding please call <br>
+        (208) 353-5939
       </h3>
     </div>
 
     <div class="col-12">
       <h3 class="fw-bold">Dog Boarding</h3>
+
       Treat your furry friend to a luxurious getaway at Puppy Love Suites. Our spacious and comfortable suites provide
       the perfect home away from home for dogs of all shapes and sizes. // Heated and cooled suites.
     </div>
 
+    <i class="col-12 d-flex justify-content-center">
+      <i class="separationMargin border-bottom border-2 border-primary w-100 align-items-center"> </i>
+    </i>
+
     <div class="col-12">
       <div class="row">
+        <h3 class="col-12">PRICES</h3>
+
+
         <div class="col-12 col-md-6">
 
-          <h3>PRICES</h3>
-          <table class="table table-hover ">
+          <table class="table table-hover border border-primary border-4 rounded">
             <thead class="">
               <th scope="col">Item</th>
               <th scope="col">Rate</th>
@@ -97,13 +105,17 @@
         </div>
 
         <div class="col-12 col-md-6">
-          <img class="img-fluid"
+          <img class="img-fluid border border-primary border-4 rounded"
             src="https://images.unsplash.com/photo-1565674244283-993fb27a215f?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
             alt="">
         </div>
       </div>
 
     </div>
+
+    <i class="col-12 d-flex justify-content-center">
+      <i class="separationMargin border-bottom border-2 border-primary w-100 align-items-center"> </i>
+    </i>
 
     <div class="col-12">
       <h4>FAQ</h4>
