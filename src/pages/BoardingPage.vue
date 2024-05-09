@@ -18,15 +18,42 @@
       the perfect home away from home for dogs of all shapes and sizes. // Heated and cooled suites.
     </div>
 
-    <div class="col-12">
-      <h4>PRICES</h4>
-      <div class="row g-2">
-        <div class="col-12">Suite 1st dog - $40 per night</div>
-        <div class="col-12">Same suite each add. dog- $33 per night</div>
-        <div class="col-12">Sunday/after hours pick up/drop off- $50</div>
-        <div class="col-12">Medications- $3 per day</div>
-        <div class="col-12">Puppy Love food -$5 per day</div>
-      </div>
+    <div>
+      <h3>PRICES</h3>
+      <table class="table table-hover ">
+        <thead class="">
+          <th scope="col">Description</th>
+          <th scope="col">Rate</th>
+        </thead>
+        <tbody>
+
+          <tr class="table-primary">
+            <td scope="row">Suite 1st dog</td>
+            <td>$40 per night</td>
+          </tr>
+
+          <tr class="">
+            <td scope="row">Same suite additional dog(s)</td>
+            <td>$33 per dog, per night</td>
+          </tr>
+
+          <tr class="table-primary">
+            <td scope="row">Sunday and after hours pick up or drop off</td>
+            <td>$50</td>
+          </tr>
+
+          <tr class="">
+            <td scope="row">Medication administration</td>
+            <td>$3 per day</td>
+          </tr>
+
+          <tr class="table-primary">
+            <td scope="row">Food provided by Puppy Love Suites</td>
+            <td>$5 per day</td>
+          </tr>
+
+        </tbody>
+      </table>
     </div>
 
     <div class="col-12">
