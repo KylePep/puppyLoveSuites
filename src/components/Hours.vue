@@ -42,8 +42,8 @@ export default {
   setup() {
     return {
       screenWidth: window.innerWidth,
-      shortDays: ["Sun|Closed", "Mon|8AM-6PM", "Tue|8AM-6PM", "Wed|8AM-6PM", "Thu|8AM-6PM", "Fri|8AM-6PM", "Sat|9AM-12PM"],
-      longDays: ["Sunday|Closed", "Monday|8AM-6PM", "Tuesday|8AM-6PM", "Wednesday|8AM-6PM", "Thursday|8AM-6PM", "Friday|8AM-6PM", "Saturday|9AM-12PM"]
+      shortDays: ["Sun|Closed", "Mon|9AM-6PM", "Tue|9AM-6PM", "Wed|9AM-6PM", "Thu|9AM-6PM", "Fri|9AM-6PM", "Sat|9AM-6PM"],
+      longDays: ["Sunday|Closed", "Monday|9AM-6PM", "Tuesday|9AM-6PM", "Wednesday|9AM-6PM", "Thursday|9AM-6PM", "Friday|9AM-6PM", "Saturday|9AM-6PM"]
     }
   },
   computed: {

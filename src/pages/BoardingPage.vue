@@ -15,19 +15,18 @@
     <div class="col-12">
       <h3 class="fw-bold">Dog Boarding</h3>
       Treat your furry friend to a luxurious getaway at Puppy Love Suites. Our spacious and comfortable suites provide
-      the perfect home away from home for dogs of all shapes and sizes. With round-the-clock care and personalized
-      attention from our dedicated staff, you can relax knowing that your pup is in good hands.
+      the perfect home away from home for dogs of all shapes and sizes. // Heated and cooled suites.
     </div>
 
     <div class="col-12">
-      <h4>Prices</h4>
-      <ul>
-        <li>Suite 1st dog - $40 per night</li>
-        <li>Same suite each add. dog- $33 per night</li>
-        <li>Sunday/after hours pick up/drop off- $50</li>
-        <li>Medications- $3 per day</li>
-        <li>Puppy Love food -$5 per day</li>
-      </ul>
+      <h4>PRICES</h4>
+      <div class="row g-2">
+        <div class="col-12">Suite 1st dog - $40 per night</div>
+        <div class="col-12">Same suite each add. dog- $33 per night</div>
+        <div class="col-12">Sunday/after hours pick up/drop off- $50</div>
+        <div class="col-12">Medications- $3 per day</div>
+        <div class="col-12">Puppy Love food -$5 per day</div>
+      </div>
     </div>
 
     <div class="col-12">

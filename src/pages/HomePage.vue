@@ -16,7 +16,7 @@ import Notification from "../components/Notification.vue";
   <div class="row">
     <div class="col-12 px-0">
       <h2 class="text-center">
-        Top-quality pet boarding in Nampa!
+        Top-quality dog boarding in Nampa!
       </h2>
     </div>
   </div>
@@ -24,8 +24,8 @@ import Notification from "../components/Notification.vue";
   <article class="row position-relative">
 
     <div class="col-12">
-      <p class="fs-6 text-center">Beyond exceptional care, we also strive to create a welcoming and
-        inclusive
+      <p class="fs-5 text-center">Beyond exceptional care, we also strive to create a welcoming and
+        super cool
         environment
         for both dogs and
         their

@@ -31,6 +31,7 @@ export default {
       We'd love to hear from you! Whether you have questions about our services, want to schedule a tour of our
       facilities, or just want to say hello, we're here to help. Get in touch with us using the contact information
       below:
+      // Call to book etc
     </div>
 
     <div class="col-12 d-flex justify-content-center">
@@ -86,7 +87,7 @@ export default {
         you into our family!
       </p>
     </div>
-    <p class="fs-5 fw-semibold btn text-white bg-primary px-3 py-1 rounded-4 selectable">?Schedule?</p>
+    <p class="fs-5 fw-semibold btn text-white bg-primary px-3 py-1 rounded-4 selectable">//Call to schedule</p>
 
     <div class="col-12 d-flex justify-content-center">
       <i class="separationMargin border-bottom border-2 border-primary w-75 align-items-center"> </i>
