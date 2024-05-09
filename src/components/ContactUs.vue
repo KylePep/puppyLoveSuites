@@ -19,7 +19,7 @@ const closeModal = () => {
   <!-- Button trigger modal -->
   <button type="button" class="btn btn-primary rounded-4 text-white fw-bold" data-bs-toggle="modal"
     data-bs-target="#contactModal">
-    CONTACT US
+    CONTACT INFO
   </button>
 
   <!-- Modal -->
@@ -30,7 +30,7 @@ const closeModal = () => {
           <h1 class="modal-title fw-bold fs-5" id="contactModalLabel">
             <button @click="closeModal"
               class="btn bg-primary text-white px-2 py-1 rounded selectable text-uppercase fs-3 fw-bold">
-              CONTACT PAGE
+              CONTACT US
             </button>
           </h1>
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>

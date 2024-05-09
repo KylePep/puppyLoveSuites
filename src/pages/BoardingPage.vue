@@ -12,7 +12,7 @@
 
   <article class="row my-3 g-3">
     <div class="col-12">
-      <h3 class="text-center bg-secondary text-light px-2 py-2 rounded">
+      <h3 class="text-center bg-secondary text-light px-2 py-4 rounded">
         In order to book your dogs boarding please call <br>
         (208) 353-5939
       </h3>
@@ -30,13 +30,13 @@
     </i>
 
     <div class="col-12">
-      <div class="row">
-        <h3 class="col-12">PRICES</h3>
+      <div class="row g-2">
+        <h3 class="col-12">PRICING</h3>
 
 
-        <div class="col-12 col-md-6">
+        <div class="col-12 order-2 order-md-1 col-md-6 ">
 
-          <table class="table table-hover border border-primary border-4 rounded">
+          <table class="table table-hover border border-primary border-4 rounded my-0">
             <thead class="">
               <th scope="col">Item</th>
               <th scope="col">Rate</th>
@@ -104,11 +104,13 @@
           </table>
         </div>
 
-        <div class="col-12 col-md-6">
-          <img class="img-fluid border border-primary border-4 rounded"
-            src="https://images.unsplash.com/photo-1565674244283-993fb27a215f?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-            alt="">
+        <div class="col-12 d-flex order-1 order-md-2 col-md-6 ">
+          <div class="boarding-image border border-primary border-4 rounded flex-grow-1">
+            <h4 class="bg-primary text-white py-4 text-center">Your Dogs Vacation Starts Here!</h4>
+
+          </div>
         </div>
+
       </div>
 
     </div>
@@ -174,6 +176,15 @@ article {
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 10rem;
+}
+
+.boarding-image {
+  background-image: url(https://images.unsplash.com/photo-1565674244283-993fb27a215f?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: var(--bs-secondary);
+  min-height: 512px;
 }
 
 .separationMargin {
