@@ -39,9 +39,12 @@ export default {
     </div>
 
     <div class="col-12">
-      <h3 class="mdi mdi-phone fw-semibold"> Phone:
-      </h3>
-      <p class="fs-5 fw-semibold btn text-white bg-primary px-2 py-1 rounded-4 selectable">(208) 353-5939</p>
+      <div class="row">
+        <h3 class="col-12 mdi mdi-phone fw-semibold"> Phone:
+        </h3>
+        <p class="col-12 col-md-5 mx-auto fs-5 fw-semibold btn text-white bg-primary px-2 py-1 rounded-4 selectable">
+          (208) 353-5939</p>
+      </div>
     </div>
 
     <div class="col-12 d-flex justify-content-center">
@@ -50,9 +53,12 @@ export default {
 
 
     <div class="col-12">
-      <h3 class="mdi mdi-email fw-semibold"> Email:
-      </h3>
-      <p class="fs-5 fw-semibold btn text-white bg-primary px-3 py-1 rounded-4 selectable">puppylovesuites@gmail.com</p>
+      <div class="row">
+        <h3 class="col-12 mdi mdi-email fw-semibold"> Email:
+        </h3>
+        <p class="col-12 col-md-5 mx-auto fs-5 fw-semibold btn text-white bg-primary px-3 py-1 rounded-4 selectable">
+          puppylovesuites@gmail.com</p>
+      </div>
     </div>
 
     <div class="col-12 d-flex justify-content-center">
@@ -64,7 +70,7 @@ export default {
     <div class="row mx-0 g-2">
 
       <div class="col-12 col-md-5 mx-auto fs-5 fw-semibold btn text-white bg-primary px-1 py-1 rounded-4 selectable">
-        <i class="mdi mdi-instagram"></i> puppy_love_suites
+        <i class="mdi mdi-instagram "></i> puppy_love_suites
       </div>
 
       <div class="col-12 col-md-5 mx-auto fs-5 fw-semibold btn text-white bg-primary px-1 py-1 rounded-4 selectable">
