@@ -62,6 +62,7 @@ export default {
     <h3 class="col-12 mdi mdi-web fw-bold"> Connect with us:</h3>
 
     <div class="row mx-0 g-2">
+
       <div class="col-12 col-md-5 mx-auto fs-5 fw-semibold btn text-white bg-primary px-1 py-1 rounded-4 selectable">
         <i class="mdi mdi-instagram"></i> puppy_love_suites
       </div>
@@ -79,15 +80,14 @@ export default {
 
     <div class="col-12">
       <h3 class="mdi mdi-calendar-month fw-bold"> Schedule a Visit:</h3>
-      <p class="">
-        Ready to see Puppy Love Suites for yourself? We'd love to give you a tour of our facilities and introduce you to
-        our dedicated team. Contact us today to schedule your visit and experience the Puppy Love Suites difference
-        firsthand. <br> Thank you for considering Puppy Love Suites for your furry friend's care. We can't wait to
-        welcome
-        you into our family!
+      <p class="mb-3">
+        Ready to see Puppy Love Suites for yourself? We'd love to give you a tour of our facilities. Contact us today to
+        schedule your visit and experience the Puppy Love Suites difference
+        firsthand. <br> Thank you for considering Puppy Love Suites for your furry friend's care.
       </p>
+      <i class="mdi mdi-paw fs-3 text-white bg-primary rounded-5 px-2 py-1"></i>
     </div>
-    <p class="fs-5 fw-semibold btn text-white bg-primary px-3 py-1 rounded-4 selectable">//Call to schedule</p>
+    <!-- <p class="fs-5 fw-semibold btn text-white bg-primary px-3 py-1 rounded-4 selectable">//Call to schedule</p> -->
 
     <div class="col-12 d-flex justify-content-center">
       <i class="separationMargin border-bottom border-2 border-primary w-100 align-items-center"> </i>
@@ -109,7 +109,7 @@ export default {
       </h3>
       <iframe class="border border-2 border-primary rounded"
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2893.605939266819!2d-116.59967929999998!3d43.51055549999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54ae49b3d5ccf939%3A0x7870a107ef3ae032!2sPuppy%20Love%20Suites!5e0!3m2!1sen!2sus!4v1714639389907!5m2!1sen!2sus"
-        width="75%" height="225" style="border:0;" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        width="100%" height="225" style="border:0;" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
       <p class="fw-semibold">10330 Lake Shore Dr, Nampa, ID 83686</p>
     </div>
 
