@@ -34,9 +34,9 @@
         <h3 class="col-12">PRICING</h3>
 
 
-        <div class="col-12 order-2 order-md-1 col-md-6 ">
+        <div class="col-12 order-2 order-lg-1 col-lg-6 ">
 
-          <table class="table table-hover border border-primary border-4 rounded my-0">
+          <table class="table border border-primary border-4 rounded my-0">
             <thead class="">
               <th scope="col">Item</th>
               <th scope="col">Rate</th>
@@ -55,7 +55,7 @@
                 </td>
               </tr>
 
-              <tr class="">
+              <tr class="table-light">
                 <td scope="row">Additional dog(s)</td>
                 <td>$33 per dog, per night</td>
                 <td>
@@ -77,7 +77,7 @@
                 </td>
               </tr>
 
-              <tr class="">
+              <tr class="table-light">
                 <td scope="row">Medication administration</td>
                 <td>$3 per day</td>
                 <td>
@@ -104,13 +104,39 @@
           </table>
         </div>
 
-        <div class="col-12 d-flex order-1 order-md-2 col-md-6 ">
+        <div class="col-12 d-flex order-1 order-lg-2 col-lg-6 ">
           <div class="boarding-image border border-primary border-4 rounded flex-grow-1">
             <h4 class="bg-primary text-white py-4 text-center">Your Dogs Vacation Starts Here!</h4>
 
           </div>
         </div>
 
+      </div>
+
+    </div>
+
+    <i class="col-12 d-flex justify-content-center">
+      <i class="separationMargin border-bottom border-2 border-primary w-100 align-items-center"> </i>
+    </i>
+
+    <div class="col-12">
+      <div class="row">
+        <h3 class="col-12">
+          Suites
+        </h3>
+      </div>
+      <div class="col-12">
+        <BoardingCarousel />
+      </div>
+
+      <div class="col-12">
+        <h4>Details</h4>
+        <ul>
+          <li>Heated</li>
+          <li>Cooled</li>
+          <li>Private</li>
+          <li>Bead provided</li>
+        </ul>
       </div>
 
     </div>
@@ -152,6 +178,7 @@
 
 <script>
 import ContactUs from "../components/ContactUs.vue";
+import PhotoCarousel from "../components/PhotoCarousel.vue";
 
 export default {
   setup() {
