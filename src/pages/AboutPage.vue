@@ -17,14 +17,25 @@ import ContactUs from "../components/ContactUs.vue";
     </div>
   </div>
 
-  <article class="row g-2 my-3">
+  <article class="row g-2 mt-3">
 
     <div class="col-12">
       <h4 class="text-center">Rebecca Peppersack</h4>
       <p class="text-center">Owner/You dog's bff while you vacay</p>
     </div>
 
-    <div class="col-12">
+    <i class="col-12 d-flex justify-content-center">
+      <i class="separationMargin border-bottom border-2 border-primary w-100 align-items-center"> </i>
+    </i>
+
+    <div class="col-12 d-flex col-md-6 ">
+      <div class="profile-image border border-primary border-4 rounded flex-grow-1 align-content-end">
+        <h4 class="bg-primary text-white py-4 text-center mb-0">Rebecca Peppersack</h4>
+
+      </div>
+    </div>
+
+    <div class="col-12 col-md-6">
       <h5>20+ years experience in the veterinary industry.</h5>
       <p>
         Rebecca's passion for animals runs deep. As a lifelong dog lover and owner, she understands the importance of
@@ -106,6 +117,19 @@ article {
   >div {
     margin: 2rem 0rem;
   }
+}
+
+.profile-image {
+  background-image: url(https://images.unsplash.com/photo-1557495235-340eb888a9fb?q=80&w=2013&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-position: 35% center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: var(--bs-secondary);
+  min-height: 512px;
+}
+
+.separationMargin {
+  margin: 1.5rem 0 1.5rem 0;
 }
 
 .Hero {
