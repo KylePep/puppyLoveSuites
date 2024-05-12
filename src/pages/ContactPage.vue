@@ -1,4 +1,6 @@
 <script>
+import Hours from "../components/Hours.vue";
+
 
 export default {
   data() {
