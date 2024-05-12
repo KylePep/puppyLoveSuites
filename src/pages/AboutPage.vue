@@ -17,9 +17,9 @@ import ContactUs from "../components/ContactUs.vue";
     </div>
   </div>
 
-  <article class="row g-2 mt-3">
+  <article class="row g-2 ">
 
-    <div class="col-12">
+    <div class="col-12 my-0">
       <h4 class="text-center">Rebecca Peppersack</h4>
       <p class="text-center">Owner/You dog's bff while you vacay</p>
     </div>
@@ -30,82 +30,29 @@ import ContactUs from "../components/ContactUs.vue";
 
     <div class="col-12 d-flex col-md-6 ">
       <div class="profile-image border border-primary border-4 rounded flex-grow-1 align-content-end">
-        <h4 class="bg-primary text-white py-4 text-center mb-0">Rebecca Peppersack</h4>
+        <h4 class="bg-primary text-white py-4 text-center mb-0">Professional Dog Lady</h4>
 
       </div>
     </div>
 
-    <div class="col-12 col-md-6">
-      <h5>20+ years experience in the veterinary industry.</h5>
-      <p>
-        Rebecca's passion for animals runs deep. As a lifelong dog lover and owner, she understands the importance of
-        providing a safe, comfortable, and nurturing environment for our canine companions. With a background in the
-        veterinary industry (managing a veterinary hospital in Boise) and a commitment to excellence, Rebecca ensures
-        that
-        every dog who walks through our doors receives the same level of love and attention they would at home.
-      </p>
+    <div class="col-12 d-flex col-md-6 px-0 px-md-4">
+      <div class="flex-grow-1 bg-white border border-primary border-4 rounded">
+        <h5 class="bg-primary text-white py-2 px-3">20+ years experience in the veterinary industry.</h5>
+        <p class="px-3 py-3 ">
+          Rebecca's passion for animals runs deep. As a lifelong dog lover and owner, she understands the importance of
+          providing a safe, comfortable, and nurturing environment for our canine companions. With a background in the
+          veterinary industry (managing a veterinary hospital in Boise) and a commitment to excellence, Rebecca ensures
+          that
+          every dog who walks through our doors receives the same level of love and attention they would at home.
+        </p>
+      </div>
     </div>
-    <!-- 
-      <div class="col-12">
-      <h4>This is why I do what I do.</h4>
-      <p>
-        Welcome to Puppy Love Suites, where every tail wags with joy! Owned and lovingly managed by Rebecca Peppersack,
-        our facility is more than just a place for dogs to stay – it's a home away from home.
-      </p>
-    </div>
-
-    <div class="col-12">
-      Located in the heart of Nampa and serving dog owners across the Treasure Valley, Puppy Love Suites is nestled
-      within a picturesque setting, providing ample space for dogs to explore, play, and relax. Rebecca and her husband
-      live onsite, offering round-the-clock supervision and care for our furry guests. This unique setup allows us to
-      maintain a warm and welcoming atmosphere, where dogs feel like part of the family from the moment they arrive.
-    </div>
-
-    <div class="col-12">
-      At Puppy Love Suites, we prioritize the well-being and happiness of every dog in our care. From our spacious
-      accommodations to our carefully curated playgroups, we strive to create an environment where dogs can thrive
-      socially, mentally, and physically. Whether your pup is an energetic bundle of joy or a laid-back cuddle bug, we
-      tailor our services to meet their individual needs and preferences.
-    </div>
-
-    <div class="col-12">
-      Beyond providing exceptional care for dogs, we are deeply committed to serving our community and giving back to
-      those in need. Through partnerships with local shelters and rescue organizations, we work tirelessly to advocate
-      for the welfare of animals and provide support to those who are less fortunate.
-    </div>
-
-    <div class="col-12">
-      When you choose Puppy Love Suites, you're not just choosing a dog boarding facility – you're choosing a trusted
-      partner in your pet's care. Join us in our mission to make every dog feel loved, cherished, and right at home.
-      Thank you for considering Puppy Love Suites for your furry friend's next stay. We can't wait to welcome them into
-      our family!
-    </div> -->
 
     <div class="col-12 d-flex justify-content-center">
       <ContactUs />
     </div>
 
   </article>
-  <!-- <div class="row">
-
-    <div class="col-6">
-      <h3>This is why you should trust me</h3>
-      <ul>
-        <li>Reason 1 </li>
-        <li>Reason 2</li>
-        <li>Reason 3</li>
-      </ul>
-    </div>
-
-    <div class="col-6">
-      <h3>This is why our services are better because of me</h3>
-      <ul>
-        <li>Reason 1 </li>
-        <li>Reason 2</li>
-        <li>Reason 3</li>
-      </ul>
-    </div>
-  </div> -->
 
 
 </template>
