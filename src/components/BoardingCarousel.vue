@@ -18,7 +18,7 @@
       </div>
       <div class="carousel-item" data-bs-interval="7000">
         <img
-          src="https://plus.unsplash.com/premium_photo-1664371206863-048681ac32c4?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          src="https://images.unsplash.com/photo-1592271891745-663a32b11d50?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
           class="d-block w-100" alt="...">
         <div class="carousel-caption d-none d-md-block rounded glassmorph fadeIn">
           <h5>Triscuit</h5>
@@ -27,7 +27,7 @@
       </div>
       <div class="carousel-item">
         <img
-          src="https://images.unsplash.com/photo-1556866261-8763a7662333?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          src="https://images.unsplash.com/photo-1588207305997-1b871d05bc66?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
           class="d-block w-100" alt="..." data-bs-interval="7000">
         <div class="carousel-caption d-none d-md-block rounded glassmorph fadeIn">
           <h5>Where are they now?</h5>

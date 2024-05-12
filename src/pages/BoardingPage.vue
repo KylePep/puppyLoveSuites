@@ -129,14 +129,11 @@
         <BoardingCarousel />
       </div>
 
-      <div class="col-12">
-        <h4>Details</h4>
-        <ul>
-          <li>Heated</li>
-          <li>Cooled</li>
-          <li>Private</li>
-          <li>Bead provided</li>
-        </ul>
+      <div class="col-12 mt-3">
+        <p>Heated</p>
+        <p>Cooled</p>
+        <p>Private</p>
+        <p>Bed provided</p>
       </div>
 
     </div>
